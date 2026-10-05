@@ -1,0 +1,4897 @@
+{
+  "snapshot_metric_count": 397,
+  "methods": {
+    "minmax": {
+      "description": "V1 baseline: min-max normalization (existing behavior)",
+      "ranked_count": 397,
+      "skipped_count": 0,
+      "skipped": [],
+      "top_10": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "1000SATSUSDT",
+        "NEIROUSDT",
+        "SOLUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "DOGSUSDT"
+      ],
+      "top_20": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "1000SATSUSDT",
+        "NEIROUSDT",
+        "SOLUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "DOGSUSDT",
+        "SKRUSDT",
+        "DOGEUSDT",
+        "BOMEUSDT",
+        "BNBUSDT",
+        "PAXGUSDT",
+        "XAUTUSDT",
+        "SUIUSDT",
+        "PENGUUSDT",
+        "TAOUSDT",
+        "TRXUSDT"
+      ],
+      "top_100": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "1000SATSUSDT",
+        "NEIROUSDT",
+        "SOLUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "DOGSUSDT",
+        "SKRUSDT",
+        "DOGEUSDT",
+        "BOMEUSDT",
+        "BNBUSDT",
+        "PAXGUSDT",
+        "XAUTUSDT",
+        "SUIUSDT",
+        "PENGUUSDT",
+        "TAOUSDT",
+        "TRXUSDT",
+        "LINKUSDT",
+        "BCHUSDT",
+        "USDCUSDT",
+        "\u725b\u6765USDT",
+        "NOTUSDT",
+        "ZKCUSDT",
+        "XLMUSDT",
+        "HUMAUSDT",
+        "MAGMAUSDT",
+        "ALLOUSDT",
+        "XMRUSDT",
+        "1000SHIBUSDT",
+        "COTIUSDT",
+        "KOMAUSDT",
+        "ZKUSDT",
+        "ONGUSDT",
+        "BASUSDT",
+        "UBUSDT",
+        "XPLUSDT",
+        "CCUSDT",
+        "MEMEUSDT",
+        "ZROUSDT",
+        "AVAXUSDT",
+        "POLUSDT",
+        "ARBUSDT",
+        "DOTUSDT",
+        "FFUSDT",
+        "OPUSDT",
+        "WUSDT",
+        "ACEUSDT",
+        "SAHARAUSDT",
+        "VVVUSDT",
+        "AXSUSDT",
+        "ALGOUSDT",
+        "FILUSDT",
+        "HBARUSDT",
+        "LABUSDT",
+        "MOVRUSDT",
+        "ZORAUSDT",
+        "VETUSDT",
+        "ESPUSDT",
+        "ETCUSDT",
+        "BTRUSDT",
+        "HUSDT",
+        "XAIUSDT",
+        "AUSDT",
+        "AKEUSDT",
+        "VIRTUALUSDT",
+        "CAPUSDT",
+        "SLXUSDT",
+        "BASEDUSDT",
+        "ONEUSDT",
+        "KITEUSDT",
+        "ZENUSDT",
+        "LTCUSDT",
+        "GPSUSDT",
+        "VTHOUSDT",
+        "APTUSDT",
+        "NILUSDT",
+        "OUSDT",
+        "ZKPUSDT",
+        "SPXUSDT",
+        "ATHUSDT",
+        "ONTUSDT",
+        "DASHUSDT",
+        "1000BONKUSDT",
+        "ZAMAUSDT",
+        "WLDUSDT",
+        "PIXELUSDT",
+        "SPACEUSDT",
+        "CYSUSDT",
+        "UAIUSDT",
+        "KATUSDT",
+        "PYTHUSDT",
+        "TRUMPUSDT",
+        "REUSDT",
+        "PNUTUSDT",
+        "MAGICUSDT",
+        "MANTRAUSDT",
+        "HEIUSDT"
+      ],
+      "score_distribution": {
+        "count": 397.0,
+        "min": 0.00026441,
+        "p25": 0.10113905,
+        "median": 0.11881885,
+        "p75": 0.13492682,
+        "p90": 0.14438867,
+        "p95": 0.150688578,
+        "max": 0.64978642,
+        "mean": 0.12062155055415624
+      },
+      "norm_volume_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 9.34e-05,
+        "median": 0.00025231,
+        "p75": 0.0009036,
+        "p90": 0.004553944000000008,
+        "p95": 0.01188540999999999,
+        "max": 1.0,
+        "mean": 0.0081094480856423
+      },
+      "norm_oi_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.00013195,
+        "median": 0.00046445,
+        "p75": 0.00175214,
+        "p90": 0.004878750000000006,
+        "p95": 0.020143481999999987,
+        "max": 1.0,
+        "mean": 0.007487152090680089
+      },
+      "norm_spread_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.65953174,
+        "median": 0.77853502,
+        "p75": 0.87861869,
+        "p90": 0.943178924,
+        "p95": 0.958755044,
+        "max": 1.0,
+        "mean": 0.7596421572040299
+      }
+    },
+    "log_minmax": {
+      "description": "Log(1+x) transform on volume & OI, then min-max normalization",
+      "ranked_count": 397,
+      "skipped_count": 0,
+      "skipped": [],
+      "top_10": [
+        "1000PEPEUSDT",
+        "ETHUSDT",
+        "PUMPUSDT",
+        "XRPUSDT",
+        "DOGEUSDT",
+        "SKRUSDT",
+        "SOLUSDT",
+        "BTCUSDT",
+        "ZORAUSDT",
+        "\u725b\u6765USDT"
+      ],
+      "top_20": [
+        "1000PEPEUSDT",
+        "ETHUSDT",
+        "PUMPUSDT",
+        "XRPUSDT",
+        "DOGEUSDT",
+        "SKRUSDT",
+        "SOLUSDT",
+        "BTCUSDT",
+        "ZORAUSDT",
+        "\u725b\u6765USDT",
+        "BTRUSDT",
+        "SUIUSDT",
+        "PENGUUSDT",
+        "ZKCUSDT",
+        "ZECUSDT",
+        "ADAUSDT",
+        "1000SHIBUSDT",
+        "WLDUSDT",
+        "TRUMPUSDT",
+        "NOTUSDT"
+      ],
+      "top_100": [
+        "1000PEPEUSDT",
+        "ETHUSDT",
+        "PUMPUSDT",
+        "XRPUSDT",
+        "DOGEUSDT",
+        "SKRUSDT",
+        "SOLUSDT",
+        "BTCUSDT",
+        "ZORAUSDT",
+        "\u725b\u6765USDT",
+        "BTRUSDT",
+        "SUIUSDT",
+        "PENGUUSDT",
+        "ZKCUSDT",
+        "ZECUSDT",
+        "ADAUSDT",
+        "1000SHIBUSDT",
+        "WLDUSDT",
+        "TRUMPUSDT",
+        "NOTUSDT",
+        "\u9f99\u867eUSDT",
+        "ZKUSDT",
+        "AKEUSDT",
+        "BOMEUSDT",
+        "1000BONKUSDT",
+        "TRXUSDT",
+        "NEIROUSDT",
+        "XPLUSDT",
+        "TUTUSDT",
+        "ONGUSDT",
+        "XLMUSDT",
+        "LINKUSDT",
+        "MAGMAUSDT",
+        "BLESSUSDT",
+        "FLOCKUSDT",
+        "CYSUSDT",
+        "0GUSDT",
+        "4USDT",
+        "POLUSDT",
+        "ARBUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ZKPUSDT",
+        "BNBUSDT",
+        "LABUSDT",
+        "HBARUSDT",
+        "COTIUSDT",
+        "UAIUSDT",
+        "AVAXUSDT",
+        "VETUSDT",
+        "OPUSDT",
+        "DOTUSDT",
+        "GPSUSDT",
+        "GALAUSDT",
+        "FARTCOINUSDT",
+        "PTBUSDT",
+        "COLLECTUSDT",
+        "FETUSDT",
+        "HUMAUSDT",
+        "BICOUSDT",
+        "ACEUSDT",
+        "AXLUSDT",
+        "APTUSDT",
+        "SANDUSDT",
+        "FFUSDT",
+        "BANKUSDT",
+        "NILUSDT",
+        "TURBOUSDT",
+        "BTWUSDT",
+        "WIFUSDT",
+        "VIRTUALUSDT",
+        "MANTRAUSDT",
+        "ZROUSDT",
+        "PEOPLEUSDT",
+        "JASMYUSDT",
+        "1000SATSUSDT",
+        "PYTHUSDT",
+        "DOGSUSDT",
+        "SEIUSDT",
+        "ONEUSDT",
+        "MEMEUSDT",
+        "BEATUSDT",
+        "TIAUSDT",
+        "TRIAUSDT",
+        "SKYAIUSDT",
+        "BMTUSDT",
+        "TAOUSDT",
+        "BEAMXUSDT",
+        "LTCUSDT",
+        "TACUSDT",
+        "CLOUSDT",
+        "KAITOUSDT",
+        "ROBOUSDT",
+        "KITEUSDT",
+        "XMRUSDT",
+        "ALGOUSDT",
+        "ZAMAUSDT",
+        "STRKUSDT",
+        "BCHUSDT",
+        "ESPORTSUSDT"
+      ],
+      "score_distribution": {
+        "count": 397.0,
+        "min": 0.17973586,
+        "p25": 0.34915208,
+        "median": 0.41476901,
+        "p75": 0.48011022,
+        "p90": 0.567779498,
+        "p95": 0.610742978,
+        "max": 0.77346305,
+        "mean": 0.42384353647355144
+      },
+      "norm_volume_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.12278659,
+        "median": 0.20079049,
+        "p75": 0.31635877,
+        "p90": 0.47182006000000015,
+        "p95": 0.565424658,
+        "max": 1.0,
+        "mean": 0.24137363445843824
+      },
+      "norm_oi_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.47331705,
+        "median": 0.54750118,
+        "p75": 0.62578157,
+        "p90": 0.686149886,
+        "p95": 0.7697505819999999,
+        "max": 1.0,
+        "mean": 0.5406011305037784
+      },
+      "norm_spread_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.65953174,
+        "median": 0.77853502,
+        "p75": 0.87861869,
+        "p90": 0.943178924,
+        "p95": 0.958755044,
+        "max": 1.0,
+        "mean": 0.7596421572040299
+      }
+    },
+    "percentile": {
+      "description": "Empirical percentile rank normalization (rank / (N-1))",
+      "ranked_count": 397,
+      "skipped_count": 0,
+      "skipped": [],
+      "top_10": [
+        "1000PEPEUSDT",
+        "DOGEUSDT",
+        "PUMPUSDT",
+        "PENGUUSDT",
+        "XRPUSDT",
+        "1000SHIBUSDT",
+        "ZORAUSDT",
+        "SKRUSDT",
+        "ZKUSDT",
+        "NOTUSDT"
+      ],
+      "top_20": [
+        "1000PEPEUSDT",
+        "DOGEUSDT",
+        "PUMPUSDT",
+        "PENGUUSDT",
+        "XRPUSDT",
+        "1000SHIBUSDT",
+        "ZORAUSDT",
+        "SKRUSDT",
+        "ZKUSDT",
+        "NOTUSDT",
+        "BOMEUSDT",
+        "AKEUSDT",
+        "XPLUSDT",
+        "1000BONKUSDT",
+        "\u9f99\u867eUSDT",
+        "TRXUSDT",
+        "BLESSUSDT",
+        "TUTUSDT",
+        "COTIUSDT",
+        "BTRUSDT"
+      ],
+      "top_100": [
+        "1000PEPEUSDT",
+        "DOGEUSDT",
+        "PUMPUSDT",
+        "PENGUUSDT",
+        "XRPUSDT",
+        "1000SHIBUSDT",
+        "ZORAUSDT",
+        "SKRUSDT",
+        "ZKUSDT",
+        "NOTUSDT",
+        "BOMEUSDT",
+        "AKEUSDT",
+        "XPLUSDT",
+        "1000BONKUSDT",
+        "\u9f99\u867eUSDT",
+        "TRXUSDT",
+        "BLESSUSDT",
+        "TUTUSDT",
+        "COTIUSDT",
+        "BTRUSDT",
+        "ADAUSDT",
+        "HBARUSDT",
+        "VETUSDT",
+        "SUIUSDT",
+        "XLMUSDT",
+        "NEIROUSDT",
+        "ARBUSDT",
+        "GPSUSDT",
+        "\u725b\u6765USDT",
+        "POLUSDT",
+        "WLDUSDT",
+        "ZKCUSDT",
+        "LABUSDT",
+        "HUMAUSDT",
+        "ONGUSDT",
+        "FFUSDT",
+        "4USDT",
+        "OPUSDT",
+        "MANTRAUSDT",
+        "GALAUSDT",
+        "PEOPLEUSDT",
+        "BANKUSDT",
+        "JASMYUSDT",
+        "PTBUSDT",
+        "ZKPUSDT",
+        "SANDUSDT",
+        "BICOUSDT",
+        "TURBOUSDT",
+        "COLLECTUSDT",
+        "FILUSDT",
+        "PYTHUSDT",
+        "TRIAUSDT",
+        "SEIUSDT",
+        "BTWUSDT",
+        "MAGMAUSDT",
+        "FLOCKUSDT",
+        "ACEUSDT",
+        "ZILUSDT",
+        "FETUSDT",
+        "KITEUSDT",
+        "ROBOUSDT",
+        "NILUSDT",
+        "SAHARAUSDT",
+        "KATUSDT",
+        "FARTCOINUSDT",
+        "TACUSDT",
+        "DOTUSDT",
+        "ESPORTSUSDT",
+        "SKYAIUSDT",
+        "STRKUSDT",
+        "SOLUSDT",
+        "KOMAUSDT",
+        "ZAMAUSDT",
+        "CAPUSDT",
+        "BMTUSDT",
+        "0GUSDT",
+        "ALGOUSDT",
+        "ONEUSDT",
+        "WUSDT",
+        "APTUSDT",
+        "MEMEUSDT",
+        "ETHUSDT",
+        "UAIUSDT",
+        "LINKUSDT",
+        "AXLUSDT",
+        "TRUMPUSDT",
+        "WIFUSDT",
+        "MOVEUSDT",
+        "PLUMEUSDT",
+        "NEARUSDT",
+        "BEAMXUSDT",
+        "JCTUSDT",
+        "RVNUSDT",
+        "ZECUSDT",
+        "CYSUSDT",
+        "BEATUSDT",
+        "BIGTIMEUSDT",
+        "MUBARAKUSDT",
+        "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+        "BTCUSDT"
+      ],
+      "score_distribution": {
+        "count": 397.0,
+        "min": 0.03775253,
+        "p25": 0.33901515,
+        "median": 0.50871212,
+        "p75": 0.65277778,
+        "p90": 0.7594444460000003,
+        "p95": 0.829595956,
+        "max": 0.97992424,
+        "mean": 0.4999999998488664
+      },
+      "norm_volume_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.25,
+        "median": 0.5,
+        "p75": 0.75,
+        "p90": 0.9000000000000001,
+        "p95": 0.95,
+        "max": 1.0,
+        "mean": 0.49999999999999956
+      },
+      "norm_oi_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.25,
+        "median": 0.5,
+        "p75": 0.75,
+        "p90": 0.9000000000000001,
+        "p95": 0.95,
+        "max": 1.0,
+        "mean": 0.49999999999999994
+      },
+      "norm_spread_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.25,
+        "median": 0.5,
+        "p75": 0.75,
+        "p90": 0.9000000000000001,
+        "p95": 0.95,
+        "max": 1.0,
+        "mean": 0.49999999997481065
+      }
+    },
+    "winsorized_p1_p99": {
+      "description": "Min-max after winsorizing to [1.0%, 99.0%] for volume & OI; spread unchanged",
+      "ranked_count": 397,
+      "skipped_count": 0,
+      "skipped": [],
+      "top_10": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "SOLUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "SKRUSDT",
+        "NEIROUSDT",
+        "1000SATSUSDT"
+      ],
+      "top_20": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "SOLUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "SKRUSDT",
+        "NEIROUSDT",
+        "1000SATSUSDT",
+        "DOGSUSDT",
+        "DOGEUSDT",
+        "BOMEUSDT",
+        "HMSTRUSDT",
+        "\u725b\u6765USDT",
+        "BNBUSDT",
+        "NOTUSDT",
+        "ZORAUSDT",
+        "TRUMPUSDT",
+        "SUIUSDT"
+      ],
+      "top_100": [
+        "ETHUSDT",
+        "BTCUSDT",
+        "ZECUSDT",
+        "XRPUSDT",
+        "SOLUSDT",
+        "1000PEPEUSDT",
+        "PUMPUSDT",
+        "SKRUSDT",
+        "NEIROUSDT",
+        "1000SATSUSDT",
+        "DOGSUSDT",
+        "DOGEUSDT",
+        "BOMEUSDT",
+        "HMSTRUSDT",
+        "\u725b\u6765USDT",
+        "BNBUSDT",
+        "NOTUSDT",
+        "ZORAUSDT",
+        "TRUMPUSDT",
+        "SUIUSDT",
+        "XPINUSDT",
+        "ZKCUSDT",
+        "BTRUSDT",
+        "1000SHIBUSDT",
+        "PENGUUSDT",
+        "PTBUSDT",
+        "1000BONKUSDT",
+        "TOSHIUSDT",
+        "LINKUSDT",
+        "MEMEUSDT",
+        "AKEUSDT",
+        "ONEUSDT",
+        "XMRUSDT",
+        "TAOUSDT",
+        "PAXGUSDT",
+        "MAGMAUSDT",
+        "WLDUSDT",
+        "CYSUSDT",
+        "TRXUSDT",
+        "BCHUSDT",
+        "XAUTUSDT",
+        "VTHOUSDT",
+        "ADAUSDT",
+        "AVAXUSDT",
+        "ZKUSDT",
+        "ONGUSDT",
+        "XLMUSDT",
+        "XPLUSDT",
+        "TAGUSDT",
+        "IOSTUSDT",
+        "HUMAUSDT",
+        "COTIUSDT",
+        "FILUSDT",
+        "BEAMXUSDT",
+        "1000CHEEMSUSDT",
+        "POLUSDT",
+        "DASHUSDT",
+        "ARBUSDT",
+        "DOTUSDT",
+        "VETUSDT",
+        "LTCUSDT",
+        "UAIUSDT",
+        "GPSUSDT",
+        "HBARUSDT",
+        "TURBOUSDT",
+        "USDCUSDT",
+        "LABUSDT",
+        "KOMAUSDT",
+        "ZROUSDT",
+        "OPUSDT",
+        "ZKPUSDT",
+        "FFUSDT",
+        "ALLOUSDT",
+        "ACEUSDT",
+        "SAHARAUSDT",
+        "\u9f99\u867eUSDT",
+        "GALAUSDT",
+        "TUTUSDT",
+        "WUSDT",
+        "VVVUSDT",
+        "CCUSDT",
+        "VIRTUALUSDT",
+        "0GUSDT",
+        "BASUSDT",
+        "BLESSUSDT",
+        "ETCUSDT",
+        "UBUSDT",
+        "ZENUSDT",
+        "ALGOUSDT",
+        "MOVRUSDT",
+        "APTUSDT",
+        "HUSDT",
+        "ATHUSDT",
+        "AXSUSDT",
+        "MANTRAUSDT",
+        "CAPUSDT",
+        "XAIUSDT",
+        "NEARUSDT",
+        "ESPUSDT",
+        "NILUSDT"
+      ],
+      "score_distribution": {
+        "count": 397.0,
+        "min": 0.00063949,
+        "p25": 0.08173417,
+        "median": 0.10853848,
+        "p75": 0.13910194,
+        "p90": 0.17270181800000003,
+        "p95": 0.236768544,
+        "max": 0.65003513,
+        "mean": 0.12305599622166237
+      },
+      "norm_volume_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.00071303,
+        "median": 0.00210635,
+        "p75": 0.00781696,
+        "p90": 0.03982336000000007,
+        "p95": 0.1041061719999999,
+        "max": 1.0,
+        "mean": 0.029178824307304792
+      },
+      "norm_oi_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.0011322,
+        "median": 0.00399795,
+        "p75": 0.01509623,
+        "p90": 0.042043748000000054,
+        "p95": 0.1736067999999999,
+        "max": 1.0,
+        "mean": 0.03589374604534003
+      },
+      "norm_spread_distribution": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.48570328,
+        "median": 0.66621952,
+        "p75": 0.81803658,
+        "p90": 0.915968098,
+        "p95": 0.939595534,
+        "max": 1.0,
+        "mean": 0.6393584869773299
+      }
+    }
+  },
+  "pairwise_spearman": {
+    "minmax_vs_minmax": 1.0,
+    "minmax_vs_log_minmax": 0.673575,
+    "minmax_vs_percentile": 0.636872,
+    "minmax_vs_winsorized_p1_p99": 0.941426,
+    "log_minmax_vs_log_minmax": 1.0,
+    "log_minmax_vs_percentile": 0.974422,
+    "log_minmax_vs_winsorized_p1_p99": 0.759599,
+    "percentile_vs_percentile": 1.0,
+    "percentile_vs_winsorized_p1_p99": 0.705029,
+    "winsorized_p1_p99_vs_winsorized_p1_p99": 1.0
+  },
+  "overlap": {
+    "log_minmax": {
+      "top_10": {
+        "count_a": 10,
+        "count_b": 10,
+        "overlap": 6,
+        "overlap_pct": 60.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "DOGSUSDT",
+          "NEIROUSDT",
+          "ZECUSDT"
+        ],
+        "only_in_b": [
+          "DOGEUSDT",
+          "SKRUSDT",
+          "ZORAUSDT",
+          "\u725b\u6765USDT"
+        ]
+      },
+      "top_20": {
+        "count_a": 20,
+        "count_b": 20,
+        "overlap": 11,
+        "overlap_pct": 55.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "BNBUSDT",
+          "BOMEUSDT",
+          "DOGSUSDT",
+          "NEIROUSDT",
+          "PAXGUSDT",
+          "TAOUSDT",
+          "TRXUSDT",
+          "XAUTUSDT"
+        ],
+        "only_in_b": [
+          "1000SHIBUSDT",
+          "ADAUSDT",
+          "BTRUSDT",
+          "NOTUSDT",
+          "TRUMPUSDT",
+          "WLDUSDT",
+          "ZKCUSDT",
+          "ZORAUSDT",
+          "\u725b\u6765USDT"
+        ]
+      },
+      "top_50": {
+        "count_a": 50,
+        "count_b": 50,
+        "overlap": 29,
+        "overlap_pct": 58.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "ACEUSDT",
+          "ALLOUSDT",
+          "BASUSDT",
+          "BCHUSDT",
+          "CCUSDT",
+          "DOGSUSDT",
+          "DOTUSDT",
+          "FFUSDT",
+          "HUMAUSDT",
+          "KOMAUSDT",
+          "MEMEUSDT",
+          "OPUSDT",
+          "PAXGUSDT",
+          "TAOUSDT",
+          "UBUSDT",
+          "USDCUSDT",
+          "WUSDT",
+          "XAUTUSDT",
+          "XMRUSDT",
+          "ZROUSDT"
+        ],
+        "only_in_b": [
+          "0GUSDT",
+          "1000BONKUSDT",
+          "4USDT",
+          "ADAUSDT",
+          "AKEUSDT",
+          "BLESSUSDT",
+          "BTRUSDT",
+          "CYSUSDT",
+          "FILUSDT",
+          "FLOCKUSDT",
+          "HBARUSDT",
+          "LABUSDT",
+          "NEARUSDT",
+          "TRUMPUSDT",
+          "TUTUSDT",
+          "UAIUSDT",
+          "VETUSDT",
+          "WLDUSDT",
+          "ZKPUSDT",
+          "ZORAUSDT",
+          "\u9f99\u867eUSDT"
+        ]
+      },
+      "top_100": {
+        "count_a": 100,
+        "count_b": 100,
+        "overlap": 65,
+        "overlap_pct": 65.0,
+        "only_in_a": [
+          "ALLOUSDT",
+          "ATHUSDT",
+          "AUSDT",
+          "AXSUSDT",
+          "BASEDUSDT",
+          "BASUSDT",
+          "CAPUSDT",
+          "CCUSDT",
+          "DASHUSDT",
+          "ESPUSDT",
+          "ETCUSDT",
+          "HEIUSDT",
+          "HUSDT",
+          "KATUSDT",
+          "KOMAUSDT",
+          "MAGICUSDT",
+          "MOVRUSDT",
+          "ONTUSDT",
+          "OUSDT",
+          "PAXGUSDT",
+          "PIXELUSDT",
+          "PNUTUSDT",
+          "REUSDT",
+          "SAHARAUSDT",
+          "SLXUSDT",
+          "SPACEUSDT",
+          "SPXUSDT",
+          "UBUSDT",
+          "USDCUSDT",
+          "VTHOUSDT",
+          "VVVUSDT",
+          "WUSDT",
+          "XAIUSDT",
+          "XAUTUSDT",
+          "ZENUSDT"
+        ],
+        "only_in_b": [
+          "0GUSDT",
+          "4USDT",
+          "ADAUSDT",
+          "AXLUSDT",
+          "BANKUSDT",
+          "BEAMXUSDT",
+          "BEATUSDT",
+          "BICOUSDT",
+          "BLESSUSDT",
+          "BMTUSDT",
+          "BTWUSDT",
+          "CLOUSDT",
+          "COLLECTUSDT",
+          "ESPORTSUSDT",
+          "FARTCOINUSDT",
+          "FETUSDT",
+          "FLOCKUSDT",
+          "GALAUSDT",
+          "JASMYUSDT",
+          "KAITOUSDT",
+          "NEARUSDT",
+          "PEOPLEUSDT",
+          "PTBUSDT",
+          "ROBOUSDT",
+          "SANDUSDT",
+          "SEIUSDT",
+          "SKYAIUSDT",
+          "STRKUSDT",
+          "TACUSDT",
+          "TIAUSDT",
+          "TRIAUSDT",
+          "TURBOUSDT",
+          "TUTUSDT",
+          "WIFUSDT",
+          "\u9f99\u867eUSDT"
+        ]
+      }
+    },
+    "percentile": {
+      "top_10": {
+        "count_a": 10,
+        "count_b": 10,
+        "overlap": 3,
+        "overlap_pct": 30.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "BTCUSDT",
+          "DOGSUSDT",
+          "ETHUSDT",
+          "NEIROUSDT",
+          "SOLUSDT",
+          "ZECUSDT"
+        ],
+        "only_in_b": [
+          "1000SHIBUSDT",
+          "DOGEUSDT",
+          "NOTUSDT",
+          "PENGUUSDT",
+          "SKRUSDT",
+          "ZKUSDT",
+          "ZORAUSDT"
+        ]
+      },
+      "top_20": {
+        "count_a": 20,
+        "count_b": 20,
+        "overlap": 8,
+        "overlap_pct": 40.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "BNBUSDT",
+          "BTCUSDT",
+          "DOGSUSDT",
+          "ETHUSDT",
+          "NEIROUSDT",
+          "PAXGUSDT",
+          "SOLUSDT",
+          "SUIUSDT",
+          "TAOUSDT",
+          "XAUTUSDT",
+          "ZECUSDT"
+        ],
+        "only_in_b": [
+          "1000BONKUSDT",
+          "1000SHIBUSDT",
+          "AKEUSDT",
+          "BLESSUSDT",
+          "BTRUSDT",
+          "COTIUSDT",
+          "NOTUSDT",
+          "TUTUSDT",
+          "XPLUSDT",
+          "ZKUSDT",
+          "ZORAUSDT",
+          "\u9f99\u867eUSDT"
+        ]
+      },
+      "top_50": {
+        "count_a": 50,
+        "count_b": 50,
+        "overlap": 24,
+        "overlap_pct": 48.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "ACEUSDT",
+          "ALLOUSDT",
+          "AVAXUSDT",
+          "BASUSDT",
+          "BCHUSDT",
+          "BNBUSDT",
+          "BTCUSDT",
+          "CCUSDT",
+          "DOGSUSDT",
+          "DOTUSDT",
+          "ETHUSDT",
+          "KOMAUSDT",
+          "LINKUSDT",
+          "MAGMAUSDT",
+          "MEMEUSDT",
+          "PAXGUSDT",
+          "SOLUSDT",
+          "TAOUSDT",
+          "UBUSDT",
+          "USDCUSDT",
+          "WUSDT",
+          "XAUTUSDT",
+          "XMRUSDT",
+          "ZECUSDT",
+          "ZROUSDT"
+        ],
+        "only_in_b": [
+          "1000BONKUSDT",
+          "4USDT",
+          "ADAUSDT",
+          "AKEUSDT",
+          "BANKUSDT",
+          "BICOUSDT",
+          "BLESSUSDT",
+          "BTRUSDT",
+          "COLLECTUSDT",
+          "FILUSDT",
+          "GALAUSDT",
+          "GPSUSDT",
+          "HBARUSDT",
+          "JASMYUSDT",
+          "LABUSDT",
+          "MANTRAUSDT",
+          "PEOPLEUSDT",
+          "PTBUSDT",
+          "SANDUSDT",
+          "TURBOUSDT",
+          "TUTUSDT",
+          "VETUSDT",
+          "WLDUSDT",
+          "ZKPUSDT",
+          "ZORAUSDT",
+          "\u9f99\u867eUSDT"
+        ]
+      },
+      "top_100": {
+        "count_a": 100,
+        "count_b": 100,
+        "overlap": 60,
+        "overlap_pct": 60.0,
+        "only_in_a": [
+          "1000SATSUSDT",
+          "ALLOUSDT",
+          "ATHUSDT",
+          "AUSDT",
+          "AVAXUSDT",
+          "AXSUSDT",
+          "BASEDUSDT",
+          "BASUSDT",
+          "BCHUSDT",
+          "BNBUSDT",
+          "CCUSDT",
+          "DASHUSDT",
+          "DOGSUSDT",
+          "ESPUSDT",
+          "ETCUSDT",
+          "HEIUSDT",
+          "HUSDT",
+          "LTCUSDT",
+          "MAGICUSDT",
+          "MOVRUSDT",
+          "ONTUSDT",
+          "OUSDT",
+          "PAXGUSDT",
+          "PIXELUSDT",
+          "PNUTUSDT",
+          "REUSDT",
+          "SLXUSDT",
+          "SPACEUSDT",
+          "SPXUSDT",
+          "TAOUSDT",
+          "UBUSDT",
+          "USDCUSDT",
+          "VIRTUALUSDT",
+          "VTHOUSDT",
+          "VVVUSDT",
+          "XAIUSDT",
+          "XAUTUSDT",
+          "XMRUSDT",
+          "ZENUSDT",
+          "ZROUSDT"
+        ],
+        "only_in_b": [
+          "0GUSDT",
+          "4USDT",
+          "ADAUSDT",
+          "AXLUSDT",
+          "BANKUSDT",
+          "BEAMXUSDT",
+          "BEATUSDT",
+          "BICOUSDT",
+          "BIGTIMEUSDT",
+          "BLESSUSDT",
+          "BMTUSDT",
+          "BTWUSDT",
+          "COLLECTUSDT",
+          "ESPORTSUSDT",
+          "FARTCOINUSDT",
+          "FETUSDT",
+          "FLOCKUSDT",
+          "GALAUSDT",
+          "JASMYUSDT",
+          "JCTUSDT",
+          "MOVEUSDT",
+          "MUBARAKUSDT",
+          "NEARUSDT",
+          "PEOPLEUSDT",
+          "PLUMEUSDT",
+          "PTBUSDT",
+          "ROBOUSDT",
+          "RVNUSDT",
+          "SANDUSDT",
+          "SEIUSDT",
+          "SKYAIUSDT",
+          "STRKUSDT",
+          "TACUSDT",
+          "TRIAUSDT",
+          "TURBOUSDT",
+          "TUTUSDT",
+          "WIFUSDT",
+          "ZILUSDT",
+          "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+          "\u9f99\u867eUSDT"
+        ]
+      }
+    },
+    "winsorized_p1_p99": {
+      "top_10": {
+        "count_a": 10,
+        "count_b": 10,
+        "overlap": 9,
+        "overlap_pct": 90.0,
+        "only_in_a": [
+          "DOGSUSDT"
+        ],
+        "only_in_b": [
+          "SKRUSDT"
+        ]
+      },
+      "top_20": {
+        "count_a": 20,
+        "count_b": 20,
+        "overlap": 15,
+        "overlap_pct": 75.0,
+        "only_in_a": [
+          "PAXGUSDT",
+          "PENGUUSDT",
+          "TAOUSDT",
+          "TRXUSDT",
+          "XAUTUSDT"
+        ],
+        "only_in_b": [
+          "HMSTRUSDT",
+          "NOTUSDT",
+          "TRUMPUSDT",
+          "ZORAUSDT",
+          "\u725b\u6765USDT"
+        ]
+      },
+      "top_50": {
+        "count_a": 50,
+        "count_b": 50,
+        "overlap": 34,
+        "overlap_pct": 68.0,
+        "only_in_a": [
+          "ACEUSDT",
+          "ALLOUSDT",
+          "ARBUSDT",
+          "BASUSDT",
+          "CCUSDT",
+          "COTIUSDT",
+          "DOTUSDT",
+          "FFUSDT",
+          "HUMAUSDT",
+          "KOMAUSDT",
+          "OPUSDT",
+          "POLUSDT",
+          "UBUSDT",
+          "USDCUSDT",
+          "WUSDT",
+          "ZROUSDT"
+        ],
+        "only_in_b": [
+          "1000BONKUSDT",
+          "ADAUSDT",
+          "AKEUSDT",
+          "BTRUSDT",
+          "CYSUSDT",
+          "HMSTRUSDT",
+          "IOSTUSDT",
+          "ONEUSDT",
+          "PTBUSDT",
+          "TAGUSDT",
+          "TOSHIUSDT",
+          "TRUMPUSDT",
+          "VTHOUSDT",
+          "WLDUSDT",
+          "XPINUSDT",
+          "ZORAUSDT"
+        ]
+      },
+      "top_100": {
+        "count_a": 100,
+        "count_b": 100,
+        "overlap": 84,
+        "overlap_pct": 84.0,
+        "only_in_a": [
+          "AUSDT",
+          "BASEDUSDT",
+          "HEIUSDT",
+          "KATUSDT",
+          "KITEUSDT",
+          "MAGICUSDT",
+          "ONTUSDT",
+          "OUSDT",
+          "PIXELUSDT",
+          "PNUTUSDT",
+          "PYTHUSDT",
+          "REUSDT",
+          "SLXUSDT",
+          "SPACEUSDT",
+          "SPXUSDT",
+          "ZAMAUSDT"
+        ],
+        "only_in_b": [
+          "0GUSDT",
+          "1000CHEEMSUSDT",
+          "ADAUSDT",
+          "BEAMXUSDT",
+          "BLESSUSDT",
+          "GALAUSDT",
+          "HMSTRUSDT",
+          "IOSTUSDT",
+          "NEARUSDT",
+          "PTBUSDT",
+          "TAGUSDT",
+          "TOSHIUSDT",
+          "TURBOUSDT",
+          "TUTUSDT",
+          "XPINUSDT",
+          "\u9f99\u867eUSDT"
+        ]
+      }
+    }
+  },
+  "rank_regions": {
+    "minmax": {
+      "1_20": [
+        {
+          "rank": 1,
+          "symbol": "ETHUSDT",
+          "score": 0.649786,
+          "norm_volume": 1.0,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9985
+        },
+        {
+          "rank": 2,
+          "symbol": "BTCUSDT",
+          "score": 0.631457,
+          "norm_volume": 0.963,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9999
+        },
+        {
+          "rank": 3,
+          "symbol": "1000SATSUSDT",
+          "score": 0.434,
+          "norm_volume": 0.0001,
+          "norm_oi": 1.0,
+          "norm_spread": 0.5596
+        },
+        {
+          "rank": 4,
+          "symbol": "NEIROUSDT",
+          "score": 0.268736,
+          "norm_volume": 0.0005,
+          "norm_oi": 0.3625,
+          "norm_spread": 0.9441
+        },
+        {
+          "rank": 5,
+          "symbol": "SOLUSDT",
+          "score": 0.259549,
+          "norm_volume": 0.2327,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.9545
+        },
+        {
+          "rank": 6,
+          "symbol": "ZECUSDT",
+          "score": 0.226254,
+          "norm_volume": 0.1541,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9947
+        },
+        {
+          "rank": 7,
+          "symbol": "XRPUSDT",
+          "score": 0.201763,
+          "norm_volume": 0.1124,
+          "norm_oi": 0.0019,
+          "norm_spread": 0.9659
+        },
+        {
+          "rank": 8,
+          "symbol": "1000PEPEUSDT",
+          "score": 0.201042,
+          "norm_volume": 0.0255,
+          "norm_oi": 0.1149,
+          "norm_spread": 0.9873
+        },
+        {
+          "rank": 9,
+          "symbol": "PUMPUSDT",
+          "score": 0.196065,
+          "norm_volume": 0.0251,
+          "norm_oi": 0.1428,
+          "norm_spread": 0.8902
+        },
+        {
+          "rank": 10,
+          "symbol": "DOGSUSDT",
+          "score": 0.175797,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.2777,
+          "norm_spread": 0.5233
+        },
+        {
+          "rank": 11,
+          "symbol": "SKRUSDT",
+          "score": 0.168151,
+          "norm_volume": 0.0923,
+          "norm_oi": 0.0042,
+          "norm_spread": 0.8037
+        },
+        {
+          "rank": 12,
+          "symbol": "DOGEUSDT",
+          "score": 0.167801,
+          "norm_volume": 0.0412,
+          "norm_oi": 0.0164,
+          "norm_spread": 0.9432
+        },
+        {
+          "rank": 13,
+          "symbol": "BOMEUSDT",
+          "score": 0.165285,
+          "norm_volume": 0.0012,
+          "norm_oi": 0.0637,
+          "norm_spread": 0.9492
+        },
+        {
+          "rank": 14,
+          "symbol": "BNBUSDT",
+          "score": 0.162059,
+          "norm_volume": 0.026,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9936
+        },
+        {
+          "rank": 15,
+          "symbol": "PAXGUSDT",
+          "score": 0.153555,
+          "norm_volume": 0.0073,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9994
+        },
+        {
+          "rank": 16,
+          "symbol": "XAUTUSDT",
+          "score": 0.152452,
+          "norm_volume": 0.0051,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9994
+        },
+        {
+          "rank": 17,
+          "symbol": "SUIUSDT",
+          "score": 0.151838,
+          "norm_volume": 0.0227,
+          "norm_oi": 0.0008,
+          "norm_spread": 0.9347
+        },
+        {
+          "rank": 18,
+          "symbol": "PENGUUSDT",
+          "score": 0.151226,
+          "norm_volume": 0.0047,
+          "norm_oi": 0.0199,
+          "norm_spread": 0.9461
+        },
+        {
+          "rank": 19,
+          "symbol": "TAOUSDT",
+          "score": 0.151176,
+          "norm_volume": 0.0084,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9797
+        },
+        {
+          "rank": 20,
+          "symbol": "TRXUSDT",
+          "score": 0.150991,
+          "norm_volume": 0.005,
+          "norm_oi": 0.0016,
+          "norm_spread": 0.9863
+        }
+      ],
+      "90_110": [
+        {
+          "rank": 90,
+          "symbol": "SPACEUSDT",
+          "score": 0.136255,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0021,
+          "norm_spread": 0.903
+        },
+        {
+          "rank": 91,
+          "symbol": "CYSUSDT",
+          "score": 0.135884,
+          "norm_volume": 0.0126,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.8637
+        },
+        {
+          "rank": 92,
+          "symbol": "UAIUSDT",
+          "score": 0.135826,
+          "norm_volume": 0.0063,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.8841
+        },
+        {
+          "rank": 93,
+          "symbol": "KATUSDT",
+          "score": 0.13581,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0032,
+          "norm_spread": 0.8969
+        },
+        {
+          "rank": 94,
+          "symbol": "PYTHUSDT",
+          "score": 0.135777,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0011,
+          "norm_spread": 0.8996
+        },
+        {
+          "rank": 95,
+          "symbol": "TRUMPUSDT",
+          "score": 0.13572,
+          "norm_volume": 0.0312,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.8005
+        },
+        {
+          "rank": 96,
+          "symbol": "REUSDT",
+          "score": 0.13563,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.9008
+        },
+        {
+          "rank": 97,
+          "symbol": "PNUTUSDT",
+          "score": 0.135537,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.9013
+        },
+        {
+          "rank": 98,
+          "symbol": "MAGICUSDT",
+          "score": 0.135217,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.8989
+        },
+        {
+          "rank": 99,
+          "symbol": "MANTRAUSDT",
+          "score": 0.135208,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0042,
+          "norm_spread": 0.8898
+        },
+        {
+          "rank": 100,
+          "symbol": "HEIUSDT",
+          "score": 0.134927,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.8971
+        },
+        {
+          "rank": 101,
+          "symbol": "SEIUSDT",
+          "score": 0.134795,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0009,
+          "norm_spread": 0.8934
+        },
+        {
+          "rank": 102,
+          "symbol": "CFXUSDT",
+          "score": 0.134502,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.8945
+        },
+        {
+          "rank": 103,
+          "symbol": "PTBUSDT",
+          "score": 0.134469,
+          "norm_volume": 0.0004,
+          "norm_oi": 0.0327,
+          "norm_spread": 0.8187
+        },
+        {
+          "rank": 104,
+          "symbol": "VANAUSDT",
+          "score": 0.134245,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.8946
+        },
+        {
+          "rank": 105,
+          "symbol": "NMRUSDT",
+          "score": 0.134166,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.8943
+        },
+        {
+          "rank": 106,
+          "symbol": "LUNA2USDT",
+          "score": 0.13399,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.8925
+        },
+        {
+          "rank": 107,
+          "symbol": "SOPHUSDT",
+          "score": 0.133371,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0028,
+          "norm_spread": 0.8821
+        },
+        {
+          "rank": 108,
+          "symbol": "BLESSUSDT",
+          "score": 0.133141,
+          "norm_volume": 0.0028,
+          "norm_oi": 0.0038,
+          "norm_spread": 0.8695
+        },
+        {
+          "rank": 109,
+          "symbol": "GUAUSDT",
+          "score": 0.132998,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0007,
+          "norm_spread": 0.8846
+        },
+        {
+          "rank": 110,
+          "symbol": "GIGGLEUSDT",
+          "score": 0.132833,
+          "norm_volume": 0.0026,
+          "norm_oi": 0.0,
+          "norm_spread": 0.8768
+        }
+      ],
+      "190_210": [
+        {
+          "rank": 190,
+          "symbol": "PARTIUSDT",
+          "score": 0.120527,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0008,
+          "norm_spread": 0.8011
+        },
+        {
+          "rank": 191,
+          "symbol": "GWEIUSDT",
+          "score": 0.120515,
+          "norm_volume": 0.0004,
+          "norm_oi": 0.0008,
+          "norm_spread": 0.8002
+        },
+        {
+          "rank": 192,
+          "symbol": "ONUSDT",
+          "score": 0.120349,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.8009
+        },
+        {
+          "rank": 193,
+          "symbol": "MTLUSDT",
+          "score": 0.12026,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.8015
+        },
+        {
+          "rank": 194,
+          "symbol": "XNYUSDT",
+          "score": 0.119965,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0036,
+          "norm_spread": 0.791
+        },
+        {
+          "rank": 195,
+          "symbol": "BICOUSDT",
+          "score": 0.119646,
+          "norm_volume": 0.0017,
+          "norm_oi": 0.0017,
+          "norm_spread": 0.7881
+        },
+        {
+          "rank": 196,
+          "symbol": "ENSOUSDT",
+          "score": 0.119645,
+          "norm_volume": 0.0011,
+          "norm_oi": 0.0,
+          "norm_spread": 0.794
+        },
+        {
+          "rank": 197,
+          "symbol": "ELSAUSDT",
+          "score": 0.119415,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.7955
+        },
+        {
+          "rank": 198,
+          "symbol": "SHELLUSDT",
+          "score": 0.119129,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.7928
+        },
+        {
+          "rank": 199,
+          "symbol": "POWRUSDT",
+          "score": 0.118819,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.7917
+        },
+        {
+          "rank": 200,
+          "symbol": "FLOCKUSDT",
+          "score": 0.118813,
+          "norm_volume": 0.0095,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.7594
+        },
+        {
+          "rank": 201,
+          "symbol": "SAFEUSDT",
+          "score": 0.118712,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.7911
+        },
+        {
+          "rank": 202,
+          "symbol": "INXUSDT",
+          "score": 0.118608,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0019,
+          "norm_spread": 0.7859
+        },
+        {
+          "rank": 203,
+          "symbol": "YGGUSDT",
+          "score": 0.118062,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0004,
+          "norm_spread": 0.7857
+        },
+        {
+          "rank": 204,
+          "symbol": "BANANAS31USDT",
+          "score": 0.117933,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0052,
+          "norm_spread": 0.7737
+        },
+        {
+          "rank": 205,
+          "symbol": "WAXPUSDT",
+          "score": 0.117666,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0015,
+          "norm_spread": 0.7808
+        },
+        {
+          "rank": 206,
+          "symbol": "TRUTHUSDT",
+          "score": 0.117438,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.002,
+          "norm_spread": 0.778
+        },
+        {
+          "rank": 207,
+          "symbol": "MUBARAKUSDT",
+          "score": 0.117405,
+          "norm_volume": 0.0005,
+          "norm_oi": 0.0017,
+          "norm_spread": 0.7773
+        },
+        {
+          "rank": 208,
+          "symbol": "SIGNUSDT",
+          "score": 0.117362,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0019,
+          "norm_spread": 0.7773
+        },
+        {
+          "rank": 209,
+          "symbol": "NEARUSDT",
+          "score": 0.116998,
+          "norm_volume": 0.0107,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.7439
+        },
+        {
+          "rank": 210,
+          "symbol": "ACTUSDT",
+          "score": 0.116865,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0013,
+          "norm_spread": 0.7757
+        }
+      ],
+      "290_310": [
+        {
+          "rank": 290,
+          "symbol": "DOSUSDT",
+          "score": 0.102742,
+          "norm_volume": 0.0023,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.677
+        },
+        {
+          "rank": 291,
+          "symbol": "ATOMUSDT",
+          "score": 0.102418,
+          "norm_volume": 0.0013,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.6784
+        },
+        {
+          "rank": 292,
+          "symbol": "CHRUSDT",
+          "score": 0.102201,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.68
+        },
+        {
+          "rank": 293,
+          "symbol": "PLUMEUSDT",
+          "score": 0.101945,
+          "norm_volume": 0.0007,
+          "norm_oi": 0.0022,
+          "norm_spread": 0.6721
+        },
+        {
+          "rank": 294,
+          "symbol": "HOTUSDT",
+          "score": 0.101755,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0232,
+          "norm_spread": 0.6241
+        },
+        {
+          "rank": 295,
+          "symbol": "IOTXUSDT",
+          "score": 0.101583,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0037,
+          "norm_spread": 0.6682
+        },
+        {
+          "rank": 296,
+          "symbol": "COAIUSDT",
+          "score": 0.101206,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.6743
+        },
+        {
+          "rank": 297,
+          "symbol": "TLMUSDT",
+          "score": 0.101172,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0072,
+          "norm_spread": 0.657
+        },
+        {
+          "rank": 298,
+          "symbol": "TAKEUSDT",
+          "score": 0.101139,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.673
+        },
+        {
+          "rank": 299,
+          "symbol": "RIVERUSDT",
+          "score": 0.101072,
+          "norm_volume": 0.0019,
+          "norm_oi": 0.0,
+          "norm_spread": 0.6675
+        },
+        {
+          "rank": 300,
+          "symbol": "RENDERUSDT",
+          "score": 0.10013,
+          "norm_volume": 0.0008,
+          "norm_oi": 0.0,
+          "norm_spread": 0.6646
+        },
+        {
+          "rank": 301,
+          "symbol": "IRYSUSDT",
+          "score": 0.099984,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.6646
+        },
+        {
+          "rank": 302,
+          "symbol": "INITUSDT",
+          "score": 0.099876,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.6646
+        },
+        {
+          "rank": 303,
+          "symbol": "MAVIAUSDT",
+          "score": 0.099599,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.6632
+        },
+        {
+          "rank": 304,
+          "symbol": "BANUSDT",
+          "score": 0.099226,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.6599
+        },
+        {
+          "rank": 305,
+          "symbol": "BUSDT",
+          "score": 0.099002,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.659
+        },
+        {
+          "rank": 306,
+          "symbol": "MASKUSDT",
+          "score": 0.098996,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.6595
+        },
+        {
+          "rank": 307,
+          "symbol": "NEWTUSDT",
+          "score": 0.098909,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.6586
+        },
+        {
+          "rank": 308,
+          "symbol": "1000XECUSDT",
+          "score": 0.098891,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0011,
+          "norm_spread": 0.6565
+        },
+        {
+          "rank": 309,
+          "symbol": "DOODUSDT",
+          "score": 0.098768,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0063,
+          "norm_spread": 0.6435
+        },
+        {
+          "rank": 310,
+          "symbol": "AGTUSDT",
+          "score": 0.098569,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0015,
+          "norm_spread": 0.6537
+        }
+      ],
+      "380_397": [
+        {
+          "rank": 380,
+          "symbol": "TRADOORUSDT",
+          "score": 0.074525,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.4965
+        },
+        {
+          "rank": 381,
+          "symbol": "BBUSDT",
+          "score": 0.072572,
+          "norm_volume": 0.0005,
+          "norm_oi": 0.0018,
+          "norm_spread": 0.4779
+        },
+        {
+          "rank": 382,
+          "symbol": "SLPUSDT",
+          "score": 0.071829,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0084,
+          "norm_spread": 0.4592
+        },
+        {
+          "rank": 383,
+          "symbol": "BROCCOLI714USDT",
+          "score": 0.068675,
+          "norm_volume": 0.0004,
+          "norm_oi": 0.0007,
+          "norm_spread": 0.4549
+        },
+        {
+          "rank": 384,
+          "symbol": "ASRUSDT",
+          "score": 0.067863,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0,
+          "norm_spread": 0.4523
+        },
+        {
+          "rank": 385,
+          "symbol": "1000000BOBUSDT",
+          "score": 0.067238,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.4469
+        },
+        {
+          "rank": 386,
+          "symbol": "XVGUSDT",
+          "score": 0.065013,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0028,
+          "norm_spread": 0.426
+        },
+        {
+          "rank": 387,
+          "symbol": "BSVUSDT",
+          "score": 0.060042,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0,
+          "norm_spread": 0.3999
+        },
+        {
+          "rank": 388,
+          "symbol": "CELRUSDT",
+          "score": 0.059931,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0035,
+          "norm_spread": 0.3914
+        },
+        {
+          "rank": 389,
+          "symbol": "AVAAIUSDT",
+          "score": 0.059787,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.002,
+          "norm_spread": 0.3935
+        },
+        {
+          "rank": 390,
+          "symbol": "BULLAUSDT",
+          "score": 0.059711,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0018,
+          "norm_spread": 0.3933
+        },
+        {
+          "rank": 391,
+          "symbol": "GOATUSDT",
+          "score": 0.058039,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.3854
+        },
+        {
+          "rank": 392,
+          "symbol": "SAGAUSDT",
+          "score": 0.054841,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0015,
+          "norm_spread": 0.3612
+        },
+        {
+          "rank": 393,
+          "symbol": "PORTALUSDT",
+          "score": 0.051629,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0011,
+          "norm_spread": 0.3406
+        },
+        {
+          "rank": 394,
+          "symbol": "CHILLGUYUSDT",
+          "score": 0.046972,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0011,
+          "norm_spread": 0.3097
+        },
+        {
+          "rank": 395,
+          "symbol": "HANAUSDT",
+          "score": 0.045082,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0019,
+          "norm_spread": 0.2956
+        },
+        {
+          "rank": 396,
+          "symbol": "CLANKERUSDT",
+          "score": 0.041662,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0,
+          "norm_spread": 0.2772
+        },
+        {
+          "rank": 397,
+          "symbol": "TAUSDT",
+          "score": 0.000264,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0007,
+          "norm_spread": 0.0
+        }
+      ]
+    },
+    "log_minmax": {
+      "1_20": [
+        {
+          "rank": 1,
+          "symbol": "1000PEPEUSDT",
+          "score": 0.773463,
+          "norm_volume": 0.64,
+          "norm_oi": 0.8724,
+          "norm_spread": 0.9873
+        },
+        {
+          "rank": 2,
+          "symbol": "ETHUSDT",
+          "score": 0.770397,
+          "norm_volume": 1.0,
+          "norm_oi": 0.3446,
+          "norm_spread": 0.9985
+        },
+        {
+          "rank": 3,
+          "symbol": "PUMPUSDT",
+          "score": 0.762703,
+          "norm_volume": 0.6387,
+          "norm_oi": 0.8852,
+          "norm_spread": 0.8902
+        },
+        {
+          "rank": 4,
+          "symbol": "XRPUSDT",
+          "score": 0.758897,
+          "norm_volume": 0.7856,
+          "norm_oi": 0.632,
+          "norm_spread": 0.9659
+        },
+        {
+          "rank": 5,
+          "symbol": "DOGEUSDT",
+          "score": 0.750227,
+          "norm_volume": 0.6871,
+          "norm_oi": 0.7577,
+          "norm_spread": 0.9432
+        },
+        {
+          "rank": 6,
+          "symbol": "SKRUSDT",
+          "score": 0.740731,
+          "norm_volume": 0.7662,
+          "norm_oi": 0.6773,
+          "norm_spread": 0.8037
+        },
+        {
+          "rank": 7,
+          "symbol": "SOLUSDT",
+          "score": 0.718374,
+          "norm_volume": 0.857,
+          "norm_oi": 0.4192,
+          "norm_spread": 0.9545
+        },
+        {
+          "rank": 8,
+          "symbol": "BTCUSDT",
+          "score": 0.704809,
+          "norm_volume": 0.9963,
+          "norm_oi": 0.1619,
+          "norm_spread": 0.9999
+        },
+        {
+          "rank": 9,
+          "symbol": "ZORAUSDT",
+          "score": 0.686409,
+          "norm_volume": 0.6411,
+          "norm_oi": 0.6814,
+          "norm_spread": 0.8489
+        },
+        {
+          "rank": 10,
+          "symbol": "\u725b\u6765USDT",
+          "score": 0.673463,
+          "norm_volume": 0.6765,
+          "norm_oi": 0.5841,
+          "norm_spread": 0.8719
+        },
+        {
+          "rank": 11,
+          "symbol": "BTRUSDT",
+          "score": 0.659908,
+          "norm_volume": 0.6355,
+          "norm_oi": 0.6102,
+          "norm_spread": 0.8572
+        },
+        {
+          "rank": 12,
+          "symbol": "SUIUSDT",
+          "score": 0.656925,
+          "norm_volume": 0.6289,
+          "norm_oi": 0.5779,
+          "norm_spread": 0.9347
+        },
+        {
+          "rank": 13,
+          "symbol": "PENGUUSDT",
+          "score": 0.64846,
+          "norm_volume": 0.4747,
+          "norm_oi": 0.7691,
+          "norm_spread": 0.9461
+        },
+        {
+          "rank": 14,
+          "symbol": "ZKCUSDT",
+          "score": 0.647778,
+          "norm_volume": 0.6273,
+          "norm_oi": 0.5626,
+          "norm_spread": 0.9147
+        },
+        {
+          "rank": 15,
+          "symbol": "ZECUSDT",
+          "score": 0.647057,
+          "norm_volume": 0.8165,
+          "norm_oi": 0.2559,
+          "norm_spread": 0.9947
+        },
+        {
+          "rank": 16,
+          "symbol": "ADAUSDT",
+          "score": 0.634268,
+          "norm_volume": 0.5901,
+          "norm_oi": 0.6443,
+          "norm_spread": 0.758
+        },
+        {
+          "rank": 17,
+          "symbol": "1000SHIBUSDT",
+          "score": 0.63065,
+          "norm_volume": 0.4391,
+          "norm_oi": 0.7862,
+          "norm_spread": 0.9063
+        },
+        {
+          "rank": 18,
+          "symbol": "WLDUSDT",
+          "score": 0.621619,
+          "norm_volume": 0.564,
+          "norm_oi": 0.5985,
+          "norm_spread": 0.8677
+        },
+        {
+          "rank": 19,
+          "symbol": "TRUMPUSDT",
+          "score": 0.621517,
+          "norm_volume": 0.6598,
+          "norm_oi": 0.4901,
+          "norm_spread": 0.8005
+        },
+        {
+          "rank": 20,
+          "symbol": "NOTUSDT",
+          "score": 0.614477,
+          "norm_volume": 0.3949,
+          "norm_oi": 0.8068,
+          "norm_spread": 0.8974
+        }
+      ],
+      "90_110": [
+        {
+          "rank": 90,
+          "symbol": "TACUSDT",
+          "score": 0.48638,
+          "norm_volume": 0.2916,
+          "norm_oi": 0.7327,
+          "norm_spread": 0.5608
+        },
+        {
+          "rank": 91,
+          "symbol": "CLOUSDT",
+          "score": 0.486247,
+          "norm_volume": 0.3699,
+          "norm_oi": 0.5191,
+          "norm_spread": 0.7976
+        },
+        {
+          "rank": 92,
+          "symbol": "KAITOUSDT",
+          "score": 0.485912,
+          "norm_volume": 0.3653,
+          "norm_oi": 0.5051,
+          "norm_spread": 0.8431
+        },
+        {
+          "rank": 93,
+          "symbol": "ROBOUSDT",
+          "score": 0.484982,
+          "norm_volume": 0.3225,
+          "norm_oi": 0.6556,
+          "norm_spread": 0.6283
+        },
+        {
+          "rank": 94,
+          "symbol": "KITEUSDT",
+          "score": 0.483355,
+          "norm_volume": 0.27,
+          "norm_oi": 0.6003,
+          "norm_spread": 0.9215
+        },
+        {
+          "rank": 95,
+          "symbol": "XMRUSDT",
+          "score": 0.483037,
+          "norm_volume": 0.5742,
+          "norm_oi": 0.1585,
+          "norm_spread": 0.9363
+        },
+        {
+          "rank": 96,
+          "symbol": "ALGOUSDT",
+          "score": 0.482583,
+          "norm_volume": 0.2924,
+          "norm_oi": 0.5562,
+          "norm_spread": 0.9445
+        },
+        {
+          "rank": 97,
+          "symbol": "ZAMAUSDT",
+          "score": 0.482069,
+          "norm_volume": 0.2875,
+          "norm_oi": 0.5782,
+          "norm_spread": 0.9062
+        },
+        {
+          "rank": 98,
+          "symbol": "STRKUSDT",
+          "score": 0.481825,
+          "norm_volume": 0.2974,
+          "norm_oi": 0.6026,
+          "norm_spread": 0.8147
+        },
+        {
+          "rank": 99,
+          "symbol": "BCHUSDT",
+          "score": 0.481045,
+          "norm_volume": 0.5027,
+          "norm_oi": 0.2357,
+          "norm_spread": 0.9812
+        },
+        {
+          "rank": 100,
+          "symbol": "ESPORTSUSDT",
+          "score": 0.48011,
+          "norm_volume": 0.2813,
+          "norm_oi": 0.6627,
+          "norm_spread": 0.7168
+        },
+        {
+          "rank": 101,
+          "symbol": "MIRAUSDT",
+          "score": 0.478991,
+          "norm_volume": 0.3723,
+          "norm_oi": 0.5399,
+          "norm_spread": 0.6925
+        },
+        {
+          "rank": 102,
+          "symbol": "ZILUSDT",
+          "score": 0.477916,
+          "norm_volume": 0.2275,
+          "norm_oi": 0.6897,
+          "norm_spread": 0.8186
+        },
+        {
+          "rank": 103,
+          "symbol": "CAPUSDT",
+          "score": 0.47791,
+          "norm_volume": 0.2598,
+          "norm_oi": 0.5947,
+          "norm_spread": 0.9326
+        },
+        {
+          "rank": 104,
+          "symbol": "STXUSDT",
+          "score": 0.477472,
+          "norm_volume": 0.3647,
+          "norm_oi": 0.4961,
+          "norm_spread": 0.8098
+        },
+        {
+          "rank": 105,
+          "symbol": "SAHARAUSDT",
+          "score": 0.47695,
+          "norm_volume": 0.212,
+          "norm_oi": 0.6557,
+          "norm_spread": 0.943
+        },
+        {
+          "rank": 106,
+          "symbol": "KATUSDT",
+          "score": 0.476543,
+          "norm_volume": 0.2212,
+          "norm_oi": 0.6612,
+          "norm_spread": 0.8969
+        },
+        {
+          "rank": 107,
+          "symbol": "USELESSUSDT",
+          "score": 0.476365,
+          "norm_volume": 0.3589,
+          "norm_oi": 0.5367,
+          "norm_spread": 0.7272
+        },
+        {
+          "rank": 108,
+          "symbol": "JCTUSDT",
+          "score": 0.472524,
+          "norm_volume": 0.2641,
+          "norm_oi": 0.7644,
+          "norm_spread": 0.4862
+        },
+        {
+          "rank": 109,
+          "symbol": "HMSTRUSDT",
+          "score": 0.472225,
+          "norm_volume": 0.1381,
+          "norm_oi": 0.8399,
+          "norm_spread": 0.7282
+        },
+        {
+          "rank": 110,
+          "symbol": "KOMAUSDT",
+          "score": 0.4721,
+          "norm_volume": 0.2113,
+          "norm_oi": 0.6336,
+          "norm_spread": 0.9648
+        }
+      ],
+      "190_210": [
+        {
+          "rank": 190,
+          "symbol": "GIGGLEUSDT",
+          "score": 0.419072,
+          "norm_volume": 0.4181,
+          "norm_oi": 0.2243,
+          "norm_spread": 0.8768
+        },
+        {
+          "rank": 191,
+          "symbol": "TOWNSUSDT",
+          "score": 0.418689,
+          "norm_volume": 0.1691,
+          "norm_oi": 0.6839,
+          "norm_spread": 0.6319
+        },
+        {
+          "rank": 192,
+          "symbol": "LIGHTUSDT",
+          "score": 0.418612,
+          "norm_volume": 0.2839,
+          "norm_oi": 0.4774,
+          "norm_spread": 0.7307
+        },
+        {
+          "rank": 193,
+          "symbol": "IDUSDT",
+          "score": 0.418449,
+          "norm_volume": 0.2008,
+          "norm_oi": 0.5435,
+          "norm_spread": 0.8523
+        },
+        {
+          "rank": 194,
+          "symbol": "MEWUSDT",
+          "score": 0.418192,
+          "norm_volume": 0.111,
+          "norm_oi": 0.7551,
+          "norm_spread": 0.6559
+        },
+        {
+          "rank": 195,
+          "symbol": "1000RATSUSDT",
+          "score": 0.416677,
+          "norm_volume": 0.166,
+          "norm_oi": 0.6225,
+          "norm_spread": 0.7719
+        },
+        {
+          "rank": 196,
+          "symbol": "GRASSUSDT",
+          "score": 0.416298,
+          "norm_volume": 0.2439,
+          "norm_oi": 0.4698,
+          "norm_spread": 0.8664
+        },
+        {
+          "rank": 197,
+          "symbol": "HOTUSDT",
+          "score": 0.41593,
+          "norm_volume": 0.1,
+          "norm_oi": 0.778,
+          "norm_spread": 0.6241
+        },
+        {
+          "rank": 198,
+          "symbol": "XNYUSDT",
+          "score": 0.415182,
+          "norm_volume": 0.1252,
+          "norm_oi": 0.6684,
+          "norm_spread": 0.791
+        },
+        {
+          "rank": 199,
+          "symbol": "XAIUSDT",
+          "score": 0.414769,
+          "norm_volume": 0.1293,
+          "norm_oi": 0.5988,
+          "norm_spread": 0.937
+        },
+        {
+          "rank": 200,
+          "symbol": "AIXBTUSDT",
+          "score": 0.414548,
+          "norm_volume": 0.2068,
+          "norm_oi": 0.5612,
+          "norm_spread": 0.7651
+        },
+        {
+          "rank": 201,
+          "symbol": "NIGHTUSDT",
+          "score": 0.41454,
+          "norm_volume": 0.1796,
+          "norm_oi": 0.6113,
+          "norm_spread": 0.7385
+        },
+        {
+          "rank": 202,
+          "symbol": "OPENUSDT",
+          "score": 0.414412,
+          "norm_volume": 0.2683,
+          "norm_oi": 0.5288,
+          "norm_spread": 0.6346
+        },
+        {
+          "rank": 203,
+          "symbol": "GUSDT",
+          "score": 0.41437,
+          "norm_volume": 0.0939,
+          "norm_oi": 0.6759,
+          "norm_spread": 0.8724
+        },
+        {
+          "rank": 204,
+          "symbol": "SKLUSDT",
+          "score": 0.413051,
+          "norm_volume": 0.1044,
+          "norm_oi": 0.6575,
+          "norm_spread": 0.8715
+        },
+        {
+          "rank": 205,
+          "symbol": "INUSDT",
+          "score": 0.411482,
+          "norm_volume": 0.1842,
+          "norm_oi": 0.5444,
+          "norm_spread": 0.859
+        },
+        {
+          "rank": 206,
+          "symbol": "IOTXUSDT",
+          "score": 0.411002,
+          "norm_volume": 0.153,
+          "norm_oi": 0.6693,
+          "norm_spread": 0.6682
+        },
+        {
+          "rank": 207,
+          "symbol": "FIGHTUSDT",
+          "score": 0.410177,
+          "norm_volume": 0.1183,
+          "norm_oi": 0.6959,
+          "norm_spread": 0.7166
+        },
+        {
+          "rank": 208,
+          "symbol": "PARTIUSDT",
+          "score": 0.410035,
+          "norm_volume": 0.1767,
+          "norm_oi": 0.5758,
+          "norm_spread": 0.8011
+        },
+        {
+          "rank": 209,
+          "symbol": "AXSUSDT",
+          "score": 0.40849,
+          "norm_volume": 0.2558,
+          "norm_oi": 0.3956,
+          "norm_spread": 0.9477
+        },
+        {
+          "rank": 210,
+          "symbol": "MOODENGUSDT",
+          "score": 0.40807,
+          "norm_volume": 0.1925,
+          "norm_oi": 0.5136,
+          "norm_spread": 0.8804
+        }
+      ],
+      "290_310": [
+        {
+          "rank": 290,
+          "symbol": "SOONUSDT",
+          "score": 0.353869,
+          "norm_volume": 0.1232,
+          "norm_oi": 0.5093,
+          "norm_spread": 0.7601
+        },
+        {
+          "rank": 291,
+          "symbol": "REDUSDT",
+          "score": 0.35304,
+          "norm_volume": 0.2024,
+          "norm_oi": 0.4794,
+          "norm_spread": 0.5604
+        },
+        {
+          "rank": 292,
+          "symbol": "CATIUSDT",
+          "score": 0.35191,
+          "norm_volume": 0.1188,
+          "norm_oi": 0.5201,
+          "norm_spread": 0.7365
+        },
+        {
+          "rank": 293,
+          "symbol": "XTZUSDT",
+          "score": 0.351388,
+          "norm_volume": 0.1559,
+          "norm_oi": 0.4484,
+          "norm_spread": 0.7766
+        },
+        {
+          "rank": 294,
+          "symbol": "AIAUSDT",
+          "score": 0.350944,
+          "norm_volume": 0.1556,
+          "norm_oi": 0.5347,
+          "norm_spread": 0.5735
+        },
+        {
+          "rank": 295,
+          "symbol": "LAYERUSDT",
+          "score": 0.350498,
+          "norm_volume": 0.1412,
+          "norm_oi": 0.4926,
+          "norm_spread": 0.7165
+        },
+        {
+          "rank": 296,
+          "symbol": "MANTAUSDT",
+          "score": 0.34951,
+          "norm_volume": 0.0961,
+          "norm_oi": 0.538,
+          "norm_spread": 0.7545
+        },
+        {
+          "rank": 297,
+          "symbol": "MERLUSDT",
+          "score": 0.349481,
+          "norm_volume": 0.1573,
+          "norm_oi": 0.5429,
+          "norm_spread": 0.5389
+        },
+        {
+          "rank": 298,
+          "symbol": "KGENUSDT",
+          "score": 0.349152,
+          "norm_volume": 0.1405,
+          "norm_oi": 0.4858,
+          "norm_spread": 0.7258
+        },
+        {
+          "rank": 299,
+          "symbol": "CHRUSDT",
+          "score": 0.348994,
+          "norm_volume": 0.1089,
+          "norm_oi": 0.5501,
+          "norm_spread": 0.68
+        },
+        {
+          "rank": 300,
+          "symbol": "FIDAUSDT",
+          "score": 0.347521,
+          "norm_volume": 0.0991,
+          "norm_oi": 0.5327,
+          "norm_spread": 0.7433
+        },
+        {
+          "rank": 301,
+          "symbol": "ACUUSDT",
+          "score": 0.346229,
+          "norm_volume": 0.2097,
+          "norm_oi": 0.4692,
+          "norm_spread": 0.5142
+        },
+        {
+          "rank": 302,
+          "symbol": "ARUSDT",
+          "score": 0.34557,
+          "norm_volume": 0.2264,
+          "norm_oi": 0.3333,
+          "norm_spread": 0.7716
+        },
+        {
+          "rank": 303,
+          "symbol": "ZESTUSDT",
+          "score": 0.345526,
+          "norm_volume": 0.1261,
+          "norm_oi": 0.5102,
+          "norm_spread": 0.6929
+        },
+        {
+          "rank": 304,
+          "symbol": "FLUXUSDT",
+          "score": 0.344915,
+          "norm_volume": 0.1723,
+          "norm_oi": 0.4781,
+          "norm_spread": 0.6094
+        },
+        {
+          "rank": 305,
+          "symbol": "PRLUSDT",
+          "score": 0.344707,
+          "norm_volume": 0.1586,
+          "norm_oi": 0.4551,
+          "norm_spread": 0.7075
+        },
+        {
+          "rank": 306,
+          "symbol": "STARUSDT",
+          "score": 0.343412,
+          "norm_volume": 0.1825,
+          "norm_oi": 0.5045,
+          "norm_spread": 0.5039
+        },
+        {
+          "rank": 307,
+          "symbol": "SONICUSDT",
+          "score": 0.343396,
+          "norm_volume": 0.1533,
+          "norm_oi": 0.518,
+          "norm_spread": 0.5697
+        },
+        {
+          "rank": 308,
+          "symbol": "MOCAUSDT",
+          "score": 0.343233,
+          "norm_volume": 0.0731,
+          "norm_oi": 0.5819,
+          "norm_spread": 0.687
+        },
+        {
+          "rank": 309,
+          "symbol": "FHEUSDT",
+          "score": 0.342913,
+          "norm_volume": 0.1156,
+          "norm_oi": 0.5775,
+          "norm_spread": 0.5533
+        },
+        {
+          "rank": 310,
+          "symbol": "HANAUSDT",
+          "score": 0.342553,
+          "norm_volume": 0.155,
+          "norm_oi": 0.6306,
+          "norm_spread": 0.2956
+        }
+      ],
+      "380_397": [
+        {
+          "rank": 380,
+          "symbol": "ARKUSDT",
+          "score": 0.271277,
+          "norm_volume": 0.0686,
+          "norm_oi": 0.4326,
+          "norm_spread": 0.5705
+        },
+        {
+          "rank": 381,
+          "symbol": "CYBERUSDT",
+          "score": 0.270037,
+          "norm_volume": 0.1041,
+          "norm_oi": 0.3914,
+          "norm_spread": 0.5399
+        },
+        {
+          "rank": 382,
+          "symbol": "SANTOSUSDT",
+          "score": 0.26463,
+          "norm_volume": 0.0666,
+          "norm_oi": 0.3494,
+          "norm_spread": 0.7269
+        },
+        {
+          "rank": 383,
+          "symbol": "ETHWUSDT",
+          "score": 0.259104,
+          "norm_volume": 0.057,
+          "norm_oi": 0.3846,
+          "norm_spread": 0.6401
+        },
+        {
+          "rank": 384,
+          "symbol": "KSMUSDT",
+          "score": 0.249669,
+          "norm_volume": 0.1111,
+          "norm_oi": 0.2422,
+          "norm_spread": 0.7292
+        },
+        {
+          "rank": 385,
+          "symbol": "1000000MOGUSDT",
+          "score": 0.24914,
+          "norm_volume": 0.0445,
+          "norm_oi": 0.4093,
+          "norm_spread": 0.5575
+        },
+        {
+          "rank": 386,
+          "symbol": "QNTUSDT",
+          "score": 0.249117,
+          "norm_volume": 0.1677,
+          "norm_oi": 0.1097,
+          "norm_spread": 0.8459
+        },
+        {
+          "rank": 387,
+          "symbol": "METISUSDT",
+          "score": 0.246502,
+          "norm_volume": 0.1219,
+          "norm_oi": 0.2552,
+          "norm_spread": 0.6417
+        },
+        {
+          "rank": 388,
+          "symbol": "RLCUSDT",
+          "score": 0.246458,
+          "norm_volume": 0.071,
+          "norm_oi": 0.373,
+          "norm_spread": 0.5358
+        },
+        {
+          "rank": 389,
+          "symbol": "NMRUSDT",
+          "score": 0.242278,
+          "norm_volume": 0.0876,
+          "norm_oi": 0.1839,
+          "norm_spread": 0.8943
+        },
+        {
+          "rank": 390,
+          "symbol": "TAUSDT",
+          "score": 0.239266,
+          "norm_volume": 0.079,
+          "norm_oi": 0.5708,
+          "norm_spread": 0.0
+        },
+        {
+          "rank": 391,
+          "symbol": "PHAROSUSDT",
+          "score": 0.233809,
+          "norm_volume": 0.0424,
+          "norm_oi": 0.3775,
+          "norm_spread": 0.5366
+        },
+        {
+          "rank": 392,
+          "symbol": "CTKUSDT",
+          "score": 0.230086,
+          "norm_volume": 0.0,
+          "norm_oi": 0.4067,
+          "norm_spread": 0.5849
+        },
+        {
+          "rank": 393,
+          "symbol": "AVAUSDT",
+          "score": 0.229305,
+          "norm_volume": 0.0268,
+          "norm_oi": 0.3974,
+          "norm_spread": 0.5121
+        },
+        {
+          "rank": 394,
+          "symbol": "ILVUSDT",
+          "score": 0.225261,
+          "norm_volume": 0.0773,
+          "norm_oi": 0.2394,
+          "norm_spread": 0.6857
+        },
+        {
+          "rank": 395,
+          "symbol": "ASRUSDT",
+          "score": 0.199812,
+          "norm_volume": 0.0275,
+          "norm_oi": 0.3378,
+          "norm_spread": 0.4523
+        },
+        {
+          "rank": 396,
+          "symbol": "CLANKERUSDT",
+          "score": 0.179899,
+          "norm_volume": 0.1621,
+          "norm_oi": 0.1636,
+          "norm_spread": 0.2772
+        },
+        {
+          "rank": 397,
+          "symbol": "BSVUSDT",
+          "score": 0.179736,
+          "norm_volume": 0.1343,
+          "norm_oi": 0.1503,
+          "norm_spread": 0.3999
+        }
+      ]
+    },
+    "percentile": {
+      "1_20": [
+        {
+          "rank": 1,
+          "symbol": "1000PEPEUSDT",
+          "score": 0.979924,
+          "norm_volume": 0.9722,
+          "norm_oi": 0.9899,
+          "norm_spread": 0.9823
+        },
+        {
+          "rank": 2,
+          "symbol": "DOGEUSDT",
+          "score": 0.956944,
+          "norm_volume": 0.9848,
+          "norm_oi": 0.9419,
+          "norm_spread": 0.899
+        },
+        {
+          "rank": 3,
+          "symbol": "PUMPUSDT",
+          "score": 0.948485,
+          "norm_volume": 0.9697,
+          "norm_oi": 0.9924,
+          "norm_spread": 0.7753
+        },
+        {
+          "rank": 4,
+          "symbol": "PENGUUSDT",
+          "score": 0.921338,
+          "norm_volume": 0.9015,
+          "norm_oi": 0.9495,
+          "norm_spread": 0.9217
+        },
+        {
+          "rank": 5,
+          "symbol": "XRPUSDT",
+          "score": 0.910101,
+          "norm_volume": 0.9899,
+          "norm_oi": 0.7727,
+          "norm_spread": 0.9646
+        },
+        {
+          "rank": 6,
+          "symbol": "1000SHIBUSDT",
+          "score": 0.904672,
+          "norm_volume": 0.8838,
+          "norm_oi": 0.9672,
+          "norm_spread": 0.8283
+        },
+        {
+          "rank": 7,
+          "symbol": "ZORAUSDT",
+          "score": 0.902146,
+          "norm_volume": 0.9747,
+          "norm_oi": 0.8939,
+          "norm_spread": 0.6793
+        },
+        {
+          "rank": 8,
+          "symbol": "SKRUSDT",
+          "score": 0.888005,
+          "norm_volume": 0.9874,
+          "norm_oi": 0.8864,
+          "norm_spread": 0.5606
+        },
+        {
+          "rank": 9,
+          "symbol": "ZKUSDT",
+          "score": 0.887247,
+          "norm_volume": 0.8965,
+          "norm_oi": 0.8561,
+          "norm_spread": 0.9293
+        },
+        {
+          "rank": 10,
+          "symbol": "NOTUSDT",
+          "score": 0.882576,
+          "norm_volume": 0.8434,
+          "norm_oi": 0.9747,
+          "norm_spread": 0.798
+        },
+        {
+          "rank": 11,
+          "symbol": "BOMEUSDT",
+          "score": 0.877904,
+          "norm_volume": 0.7854,
+          "norm_oi": 0.9848,
+          "norm_spread": 0.9369
+        },
+        {
+          "rank": 12,
+          "symbol": "AKEUSDT",
+          "score": 0.874495,
+          "norm_volume": 0.8561,
+          "norm_oi": 0.952,
+          "norm_spread": 0.7551
+        },
+        {
+          "rank": 13,
+          "symbol": "XPLUSDT",
+          "score": 0.868308,
+          "norm_volume": 0.8914,
+          "norm_oi": 0.8157,
+          "norm_spread": 0.9141
+        },
+        {
+          "rank": 14,
+          "symbol": "1000BONKUSDT",
+          "score": 0.864899,
+          "norm_volume": 0.851,
+          "norm_oi": 0.9697,
+          "norm_spread": 0.6667
+        },
+        {
+          "rank": 15,
+          "symbol": "\u9f99\u867eUSDT",
+          "score": 0.859217,
+          "norm_volume": 0.9217,
+          "norm_oi": 0.8914,
+          "norm_spread": 0.5758
+        },
+        {
+          "rank": 16,
+          "symbol": "TRXUSDT",
+          "score": 0.858333,
+          "norm_volume": 0.9066,
+          "norm_oi": 0.7374,
+          "norm_spread": 0.9798
+        },
+        {
+          "rank": 17,
+          "symbol": "BLESSUSDT",
+          "score": 0.845455,
+          "norm_volume": 0.8712,
+          "norm_oi": 0.8636,
+          "norm_spread": 0.7172
+        },
+        {
+          "rank": 18,
+          "symbol": "TUTUSDT",
+          "score": 0.837121,
+          "norm_volume": 0.904,
+          "norm_oi": 0.8081,
+          "norm_spread": 0.6818
+        },
+        {
+          "rank": 19,
+          "symbol": "COTIUSDT",
+          "score": 0.836869,
+          "norm_volume": 0.7955,
+          "norm_oi": 0.8434,
+          "norm_spread": 0.9596
+        },
+        {
+          "rank": 20,
+          "symbol": "BTRUSDT",
+          "score": 0.831818,
+          "norm_volume": 0.9672,
+          "norm_oi": 0.6995,
+          "norm_spread": 0.6894
+        }
+      ],
+      "90_110": [
+        {
+          "rank": 90,
+          "symbol": "NEARUSDT",
+          "score": 0.670202,
+          "norm_volume": 0.947,
+          "norm_oi": 0.3813,
+          "norm_spread": 0.4217
+        },
+        {
+          "rank": 91,
+          "symbol": "BEAMXUSDT",
+          "score": 0.669949,
+          "norm_volume": 0.5783,
+          "norm_oi": 0.9646,
+          "norm_spread": 0.2879
+        },
+        {
+          "rank": 92,
+          "symbol": "JCTUSDT",
+          "score": 0.669066,
+          "norm_volume": 0.6616,
+          "norm_oi": 0.947,
+          "norm_spread": 0.0455
+        },
+        {
+          "rank": 93,
+          "symbol": "RVNUSDT",
+          "score": 0.667298,
+          "norm_volume": 0.6338,
+          "norm_oi": 0.8788,
+          "norm_spread": 0.2854
+        },
+        {
+          "rank": 94,
+          "symbol": "ZECUSDT",
+          "score": 0.65846,
+          "norm_volume": 0.9924,
+          "norm_oi": 0.0404,
+          "norm_spread": 0.9874
+        },
+        {
+          "rank": 95,
+          "symbol": "CYSUSDT",
+          "score": 0.656944,
+          "norm_volume": 0.952,
+          "norm_oi": 0.2172,
+          "norm_spread": 0.6995
+        },
+        {
+          "rank": 96,
+          "symbol": "BEATUSDT",
+          "score": 0.656061,
+          "norm_volume": 0.8586,
+          "norm_oi": 0.5732,
+          "norm_spread": 0.1742
+        },
+        {
+          "rank": 97,
+          "symbol": "BIGTIMEUSDT",
+          "score": 0.655429,
+          "norm_volume": 0.5758,
+          "norm_oi": 0.7525,
+          "norm_spread": 0.6944
+        },
+        {
+          "rank": 98,
+          "symbol": "MUBARAKUSDT",
+          "score": 0.654798,
+          "norm_volume": 0.6414,
+          "norm_oi": 0.7424,
+          "norm_spread": 0.4949
+        },
+        {
+          "rank": 99,
+          "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+          "score": 0.654419,
+          "norm_volume": 0.7247,
+          "norm_oi": 0.803,
+          "norm_spread": 0.0732
+        },
+        {
+          "rank": 100,
+          "symbol": "BTCUSDT",
+          "score": 0.652778,
+          "norm_volume": 0.9975,
+          "norm_oi": 0.0126,
+          "norm_spread": 0.9975
+        },
+        {
+          "rank": 101,
+          "symbol": "ATHUSDT",
+          "score": 0.652652,
+          "norm_volume": 0.452,
+          "norm_oi": 0.8662,
+          "norm_spread": 0.8232
+        },
+        {
+          "rank": 102,
+          "symbol": "BNBUSDT",
+          "score": 0.651389,
+          "norm_volume": 0.9773,
+          "norm_oi": 0.0429,
+          "norm_spread": 0.9848
+        },
+        {
+          "rank": 103,
+          "symbol": "AVAXUSDT",
+          "score": 0.649621,
+          "norm_volume": 0.9343,
+          "norm_oi": 0.149,
+          "norm_spread": 0.8687
+        },
+        {
+          "rank": 104,
+          "symbol": "ZROUSDT",
+          "score": 0.648737,
+          "norm_volume": 0.8409,
+          "norm_oi": 0.2475,
+          "norm_spread": 0.9444
+        },
+        {
+          "rank": 105,
+          "symbol": "1000FLOKIUSDT",
+          "score": 0.647601,
+          "norm_volume": 0.6818,
+          "norm_oi": 0.6338,
+          "norm_spread": 0.5657
+        },
+        {
+          "rank": 106,
+          "symbol": "VIRTUALUSDT",
+          "score": 0.647222,
+          "norm_volume": 0.846,
+          "norm_oi": 0.2727,
+          "norm_spread": 0.8586
+        },
+        {
+          "rank": 107,
+          "symbol": "SXTUSDT",
+          "score": 0.643687,
+          "norm_volume": 0.601,
+          "norm_oi": 0.697,
+          "norm_spread": 0.6616
+        },
+        {
+          "rank": 108,
+          "symbol": "SIRENUSDT",
+          "score": 0.642298,
+          "norm_volume": 0.5303,
+          "norm_oi": 0.7929,
+          "norm_spread": 0.6641
+        },
+        {
+          "rank": 109,
+          "symbol": "CCUSDT",
+          "score": 0.636111,
+          "norm_volume": 0.596,
+          "norm_oi": 0.5581,
+          "norm_spread": 0.952
+        },
+        {
+          "rank": 110,
+          "symbol": "ONTUSDT",
+          "score": 0.634722,
+          "norm_volume": 0.7121,
+          "norm_oi": 0.4369,
+          "norm_spread": 0.8384
+        }
+      ],
+      "190_210": [
+        {
+          "rank": 190,
+          "symbol": "OPENUSDT",
+          "score": 0.521717,
+          "norm_volume": 0.6742,
+          "norm_oi": 0.4419,
+          "norm_spread": 0.1995
+        },
+        {
+          "rank": 191,
+          "symbol": "BROCCOLI714USDT",
+          "score": 0.520833,
+          "norm_volume": 0.6237,
+          "norm_oi": 0.5808,
+          "norm_spread": 0.0379
+        },
+        {
+          "rank": 192,
+          "symbol": "IDUSDT",
+          "score": 0.520581,
+          "norm_volume": 0.5,
+          "norm_oi": 0.4798,
+          "norm_spread": 0.6843
+        },
+        {
+          "rank": 193,
+          "symbol": "1000SATSUSDT",
+          "score": 0.520455,
+          "norm_volume": 0.3106,
+          "norm_oi": 1.0,
+          "norm_spread": 0.101
+        },
+        {
+          "rank": 194,
+          "symbol": "PORTALUSDT",
+          "score": 0.518561,
+          "norm_volume": 0.5657,
+          "norm_oi": 0.6692,
+          "norm_spread": 0.0101
+        },
+        {
+          "rank": 195,
+          "symbol": "IOTXUSDT",
+          "score": 0.515783,
+          "norm_volume": 0.3485,
+          "norm_oi": 0.8611,
+          "norm_spread": 0.2677
+        },
+        {
+          "rank": 196,
+          "symbol": "SWARMSUSDT",
+          "score": 0.5125,
+          "norm_volume": 0.4318,
+          "norm_oi": 0.8182,
+          "norm_spread": 0.0682
+        },
+        {
+          "rank": 197,
+          "symbol": "ORDIUSDT",
+          "score": 0.510606,
+          "norm_volume": 0.7449,
+          "norm_oi": 0.0732,
+          "norm_spread": 0.75
+        },
+        {
+          "rank": 198,
+          "symbol": "CHILLGUYUSDT",
+          "score": 0.509091,
+          "norm_volume": 0.5581,
+          "norm_oi": 0.654,
+          "norm_spread": 0.0076
+        },
+        {
+          "rank": 199,
+          "symbol": "XNYUSDT",
+          "score": 0.508712,
+          "norm_volume": 0.2626,
+          "norm_oi": 0.8586,
+          "norm_spread": 0.5126
+        },
+        {
+          "rank": 200,
+          "symbol": "PARTIUSDT",
+          "score": 0.508333,
+          "norm_volume": 0.4394,
+          "norm_oi": 0.5909,
+          "norm_spread": 0.5455
+        },
+        {
+          "rank": 201,
+          "symbol": "AXSUSDT",
+          "score": 0.507197,
+          "norm_volume": 0.6465,
+          "norm_oi": 0.1263,
+          "norm_spread": 0.9318
+        },
+        {
+          "rank": 202,
+          "symbol": "XAIUSDT",
+          "score": 0.506439,
+          "norm_volume": 0.2803,
+          "norm_oi": 0.6667,
+          "norm_spread": 0.8864
+        },
+        {
+          "rank": 203,
+          "symbol": "GRASSUSDT",
+          "score": 0.505808,
+          "norm_volume": 0.6288,
+          "norm_oi": 0.2449,
+          "norm_spread": 0.7045
+        },
+        {
+          "rank": 204,
+          "symbol": "ENSOUSDT",
+          "score": 0.505682,
+          "norm_volume": 0.7778,
+          "norm_oi": 0.1086,
+          "norm_spread": 0.5253
+        },
+        {
+          "rank": 205,
+          "symbol": "IOSTUSDT",
+          "score": 0.50202,
+          "norm_volume": 0.154,
+          "norm_oi": 0.9318,
+          "norm_spread": 0.6591
+        },
+        {
+          "rank": 206,
+          "symbol": "INUSDT",
+          "score": 0.501136,
+          "norm_volume": 0.4571,
+          "norm_oi": 0.4823,
+          "norm_spread": 0.6919
+        },
+        {
+          "rank": 207,
+          "symbol": "GRTUSDT",
+          "score": 0.501136,
+          "norm_volume": 0.4343,
+          "norm_oi": 0.6717,
+          "norm_spread": 0.3258
+        },
+        {
+          "rank": 208,
+          "symbol": "LIGHTUSDT",
+          "score": 0.497601,
+          "norm_volume": 0.697,
+          "norm_oi": 0.2626,
+          "norm_spread": 0.3813
+        },
+        {
+          "rank": 209,
+          "symbol": "WALUSDT",
+          "score": 0.49596,
+          "norm_volume": 0.4798,
+          "norm_oi": 0.4924,
+          "norm_spread": 0.5581
+        },
+        {
+          "rank": 210,
+          "symbol": "INXUSDT",
+          "score": 0.495076,
+          "norm_volume": 0.3005,
+          "norm_oi": 0.7677,
+          "norm_spread": 0.5076
+        }
+      ],
+      "290_310": [
+        {
+          "rank": 290,
+          "symbol": "MERLUSDT",
+          "score": 0.360101,
+          "norm_volume": 0.3611,
+          "norm_oi": 0.4773,
+          "norm_spread": 0.0833
+        },
+        {
+          "rank": 291,
+          "symbol": "STARUSDT",
+          "score": 0.358207,
+          "norm_volume": 0.4495,
+          "norm_oi": 0.3586,
+          "norm_spread": 0.053
+        },
+        {
+          "rank": 292,
+          "symbol": "AIAUSDT",
+          "score": 0.357071,
+          "norm_volume": 0.3561,
+          "norm_oi": 0.4596,
+          "norm_spread": 0.1212
+        },
+        {
+          "rank": 293,
+          "symbol": "BATUSDT",
+          "score": 0.355556,
+          "norm_volume": 0.2828,
+          "norm_oi": 0.3131,
+          "norm_spread": 0.697
+        },
+        {
+          "rank": 294,
+          "symbol": "THETAUSDT",
+          "score": 0.353283,
+          "norm_volume": 0.4722,
+          "norm_oi": 0.1919,
+          "norm_spread": 0.3333
+        },
+        {
+          "rank": 295,
+          "symbol": "1000XECUSDT",
+          "score": 0.352904,
+          "norm_volume": 0.1742,
+          "norm_oi": 0.6566,
+          "norm_spread": 0.2399
+        },
+        {
+          "rank": 296,
+          "symbol": "ARPAUSDT",
+          "score": 0.35,
+          "norm_volume": 0.1616,
+          "norm_oi": 0.702,
+          "norm_spread": 0.1566
+        },
+        {
+          "rank": 297,
+          "symbol": "AIGENSYNUSDT",
+          "score": 0.339268,
+          "norm_volume": 0.2778,
+          "norm_oi": 0.5455,
+          "norm_spread": 0.0631
+        },
+        {
+          "rank": 298,
+          "symbol": "POWERUSDT",
+          "score": 0.339015,
+          "norm_volume": 0.2045,
+          "norm_oi": 0.3485,
+          "norm_spread": 0.7652
+        },
+        {
+          "rank": 299,
+          "symbol": "SONICUSDT",
+          "score": 0.336616,
+          "norm_volume": 0.351,
+          "norm_oi": 0.4116,
+          "norm_spread": 0.1136
+        },
+        {
+          "rank": 300,
+          "symbol": "FHEUSDT",
+          "score": 0.335985,
+          "norm_volume": 0.2197,
+          "norm_oi": 0.6061,
+          "norm_spread": 0.0934
+        },
+        {
+          "rank": 301,
+          "symbol": "SLPUSDT",
+          "score": 0.332071,
+          "norm_volume": 0.0051,
+          "norm_oi": 0.9242,
+          "norm_spread": 0.0404
+        },
+        {
+          "rank": 302,
+          "symbol": "FLUXUSDT",
+          "score": 0.331187,
+          "norm_volume": 0.4242,
+          "norm_oi": 0.2677,
+          "norm_spread": 0.1692
+        },
+        {
+          "rank": 303,
+          "symbol": "API3USDT",
+          "score": 0.326389,
+          "norm_volume": 0.4975,
+          "norm_oi": 0.1742,
+          "norm_spread": 0.1111
+        },
+        {
+          "rank": 304,
+          "symbol": "2ZUSDT",
+          "score": 0.32601,
+          "norm_volume": 0.2247,
+          "norm_oi": 0.3409,
+          "norm_spread": 0.6288
+        },
+        {
+          "rank": 305,
+          "symbol": "RAYSOLUSDT",
+          "score": 0.325631,
+          "norm_volume": 0.5253,
+          "norm_oi": 0.0934,
+          "norm_spread": 0.202
+        },
+        {
+          "rank": 306,
+          "symbol": "SOONUSDT",
+          "score": 0.324116,
+          "norm_volume": 0.2551,
+          "norm_oi": 0.3712,
+          "norm_spread": 0.4444
+        },
+        {
+          "rank": 307,
+          "symbol": "XTZUSDT",
+          "score": 0.321843,
+          "norm_volume": 0.3586,
+          "norm_oi": 0.1995,
+          "norm_spread": 0.4848
+        },
+        {
+          "rank": 308,
+          "symbol": "CATIUSDT",
+          "score": 0.321591,
+          "norm_volume": 0.2348,
+          "norm_oi": 0.4167,
+          "norm_spread": 0.3889
+        },
+        {
+          "rank": 309,
+          "symbol": "LAYERUSDT",
+          "score": 0.318182,
+          "norm_volume": 0.3182,
+          "norm_oi": 0.3106,
+          "norm_spread": 0.3359
+        },
+        {
+          "rank": 310,
+          "symbol": "CHRUSDT",
+          "score": 0.316919,
+          "norm_volume": 0.1919,
+          "norm_oi": 0.5101,
+          "norm_spread": 0.2828
+        }
+      ],
+      "380_397": [
+        {
+          "rank": 380,
+          "symbol": "METISUSDT",
+          "score": 0.16553,
+          "norm_volume": 0.2424,
+          "norm_oi": 0.0379,
+          "norm_spread": 0.2071
+        },
+        {
+          "rank": 381,
+          "symbol": "SFPUSDT",
+          "score": 0.165152,
+          "norm_volume": 0.0227,
+          "norm_oi": 0.1818,
+          "norm_spread": 0.601
+        },
+        {
+          "rank": 382,
+          "symbol": "CVCUSDT",
+          "score": 0.155682,
+          "norm_volume": 0.0177,
+          "norm_oi": 0.3914,
+          "norm_spread": 0.0657
+        },
+        {
+          "rank": 383,
+          "symbol": "BSVUSDT",
+          "score": 0.15202,
+          "norm_volume": 0.2904,
+          "norm_oi": 0.0076,
+          "norm_spread": 0.0278
+        },
+        {
+          "rank": 384,
+          "symbol": "DIAUSDT",
+          "score": 0.146338,
+          "norm_volume": 0.1162,
+          "norm_oi": 0.1515,
+          "norm_spread": 0.2348
+        },
+        {
+          "rank": 385,
+          "symbol": "CYBERUSDT",
+          "score": 0.13952,
+          "norm_volume": 0.1667,
+          "norm_oi": 0.1237,
+          "norm_spread": 0.0859
+        },
+        {
+          "rank": 386,
+          "symbol": "GTCUSDT",
+          "score": 0.138636,
+          "norm_volume": 0.0808,
+          "norm_oi": 0.2222,
+          "norm_spread": 0.1364
+        },
+        {
+          "rank": 387,
+          "symbol": "ALPINEUSDT",
+          "score": 0.123232,
+          "norm_volume": 0.048,
+          "norm_oi": 0.1212,
+          "norm_spread": 0.3788
+        },
+        {
+          "rank": 388,
+          "symbol": "SANTOSUSDT",
+          "score": 0.1125,
+          "norm_volume": 0.0581,
+          "norm_oi": 0.0859,
+          "norm_spread": 0.3561
+        },
+        {
+          "rank": 389,
+          "symbol": "ARKUSDT",
+          "score": 0.108207,
+          "norm_volume": 0.0631,
+          "norm_oi": 0.1692,
+          "norm_spread": 0.1162
+        },
+        {
+          "rank": 390,
+          "symbol": "ILVUSDT",
+          "score": 0.102904,
+          "norm_volume": 0.0934,
+          "norm_oi": 0.0328,
+          "norm_spread": 0.298
+        },
+        {
+          "rank": 391,
+          "symbol": "ETHWUSDT",
+          "score": 0.094066,
+          "norm_volume": 0.0455,
+          "norm_oi": 0.1162,
+          "norm_spread": 0.2045
+        },
+        {
+          "rank": 392,
+          "symbol": "RLCUSDT",
+          "score": 0.081187,
+          "norm_volume": 0.0707,
+          "norm_oi": 0.0985,
+          "norm_spread": 0.0758
+        },
+        {
+          "rank": 393,
+          "symbol": "1000000MOGUSDT",
+          "score": 0.079419,
+          "norm_volume": 0.0303,
+          "norm_oi": 0.1414,
+          "norm_spread": 0.0985
+        },
+        {
+          "rank": 394,
+          "symbol": "CTKUSDT",
+          "score": 0.068308,
+          "norm_volume": 0.0,
+          "norm_oi": 0.1389,
+          "norm_spread": 0.1313
+        },
+        {
+          "rank": 395,
+          "symbol": "PHAROSUSDT",
+          "score": 0.060985,
+          "norm_volume": 0.0278,
+          "norm_oi": 0.101,
+          "norm_spread": 0.0783
+        },
+        {
+          "rank": 396,
+          "symbol": "AVAUSDT",
+          "score": 0.05846,
+          "norm_volume": 0.0076,
+          "norm_oi": 0.1313,
+          "norm_spread": 0.0581
+        },
+        {
+          "rank": 397,
+          "symbol": "ASRUSDT",
+          "score": 0.037753,
+          "norm_volume": 0.0101,
+          "norm_oi": 0.0783,
+          "norm_spread": 0.0354
+        }
+      ]
+    },
+    "winsorized_p1_p99": {
+      "1_20": [
+        {
+          "rank": 1,
+          "symbol": "ETHUSDT",
+          "score": 0.650035,
+          "norm_volume": 1.0,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.9999
+        },
+        {
+          "rank": 2,
+          "symbol": "BTCUSDT",
+          "score": 0.65,
+          "norm_volume": 1.0,
+          "norm_oi": 0.0,
+          "norm_spread": 1.0
+        },
+        {
+          "rank": 3,
+          "symbol": "ZECUSDT",
+          "score": 0.64913,
+          "norm_volume": 1.0,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9941
+        },
+        {
+          "rank": 4,
+          "symbol": "XRPUSDT",
+          "score": 0.641127,
+          "norm_volume": 0.9854,
+          "norm_oi": 0.0168,
+          "norm_spread": 0.9504
+        },
+        {
+          "rank": 5,
+          "symbol": "SOLUSDT",
+          "score": 0.64012,
+          "norm_volume": 1.0,
+          "norm_oi": 0.0004,
+          "norm_spread": 0.9331
+        },
+        {
+          "rank": 6,
+          "symbol": "1000PEPEUSDT",
+          "score": 0.60563,
+          "norm_volume": 0.2231,
+          "norm_oi": 0.9904,
+          "norm_spread": 0.9829
+        },
+        {
+          "rank": 7,
+          "symbol": "PUMPUSDT",
+          "score": 0.585364,
+          "norm_volume": 0.2201,
+          "norm_oi": 1.0,
+          "norm_spread": 0.8356
+        },
+        {
+          "rank": 8,
+          "symbol": "SKRUSDT",
+          "score": 0.522743,
+          "norm_volume": 0.8089,
+          "norm_oi": 0.0362,
+          "norm_spread": 0.7043
+        },
+        {
+          "rank": 9,
+          "symbol": "NEIROUSDT",
+          "score": 0.489867,
+          "norm_volume": 0.0045,
+          "norm_oi": 1.0,
+          "norm_spread": 0.9173
+        },
+        {
+          "rank": 10,
+          "symbol": "1000SATSUSDT",
+          "score": 0.400578,
+          "norm_volume": 0.0009,
+          "norm_oi": 1.0,
+          "norm_spread": 0.3341
+        },
+        {
+          "rank": 11,
+          "symbol": "DOGSUSDT",
+          "score": 0.392839,
+          "norm_volume": 0.002,
+          "norm_oi": 1.0,
+          "norm_spread": 0.2791
+        },
+        {
+          "rank": 12,
+          "symbol": "DOGEUSDT",
+          "score": 0.367303,
+          "norm_volume": 0.3607,
+          "norm_oi": 0.1415,
+          "norm_spread": 0.916
+        },
+        {
+          "rank": 13,
+          "symbol": "BOMEUSDT",
+          "score": 0.336209,
+          "norm_volume": 0.0106,
+          "norm_oi": 0.5489,
+          "norm_spread": 0.9251
+        },
+        {
+          "rank": 14,
+          "symbol": "HMSTRUSDT",
+          "score": 0.2886,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.5705,
+          "norm_spread": 0.5898
+        },
+        {
+          "rank": 15,
+          "symbol": "\u725b\u6765USDT",
+          "score": 0.28568,
+          "norm_volume": 0.3238,
+          "norm_oi": 0.0074,
+          "norm_spread": 0.8078
+        },
+        {
+          "rank": 16,
+          "symbol": "BNBUSDT",
+          "score": 0.262955,
+          "norm_volume": 0.2282,
+          "norm_oi": 0.0,
+          "norm_spread": 0.9925
+        },
+        {
+          "rank": 17,
+          "symbol": "NOTUSDT",
+          "score": 0.249893,
+          "norm_volume": 0.0179,
+          "norm_oi": 0.3255,
+          "norm_spread": 0.8466
+        },
+        {
+          "rank": 18,
+          "symbol": "ZORAUSDT",
+          "score": 0.242364,
+          "norm_volume": 0.2257,
+          "norm_oi": 0.0388,
+          "norm_spread": 0.773
+        },
+        {
+          "rank": 19,
+          "symbol": "TRUMPUSDT",
+          "score": 0.241998,
+          "norm_volume": 0.2731,
+          "norm_oi": 0.0015,
+          "norm_spread": 0.6996
+        },
+        {
+          "rank": 20,
+          "symbol": "SUIUSDT",
+          "score": 0.237357,
+          "norm_volume": 0.1991,
+          "norm_oi": 0.0067,
+          "norm_spread": 0.9031
+        }
+      ],
+      "90_110": [
+        {
+          "rank": 90,
+          "symbol": "MOVRUSDT",
+          "score": 0.142247,
+          "norm_volume": 0.0096,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.9156
+        },
+        {
+          "rank": 91,
+          "symbol": "APTUSDT",
+          "score": 0.142243,
+          "norm_volume": 0.0237,
+          "norm_oi": 0.0018,
+          "norm_spread": 0.8651
+        },
+        {
+          "rank": 92,
+          "symbol": "HUSDT",
+          "score": 0.141095,
+          "norm_volume": 0.0017,
+          "norm_oi": 0.0124,
+          "norm_spread": 0.9059
+        },
+        {
+          "rank": 93,
+          "symbol": "ATHUSDT",
+          "score": 0.140952,
+          "norm_volume": 0.0017,
+          "norm_oi": 0.0333,
+          "norm_spread": 0.8562
+        },
+        {
+          "rank": 94,
+          "symbol": "AXSUSDT",
+          "score": 0.140533,
+          "norm_volume": 0.004,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.9228
+        },
+        {
+          "rank": 95,
+          "symbol": "MANTRAUSDT",
+          "score": 0.140224,
+          "norm_volume": 0.0049,
+          "norm_oi": 0.0358,
+          "norm_spread": 0.835
+        },
+        {
+          "rank": 96,
+          "symbol": "CAPUSDT",
+          "score": 0.1402,
+          "norm_volume": 0.0042,
+          "norm_oi": 0.0089,
+          "norm_spread": 0.8999
+        },
+        {
+          "rank": 97,
+          "symbol": "XAIUSDT",
+          "score": 0.139719,
+          "norm_volume": 0.0008,
+          "norm_oi": 0.0096,
+          "norm_spread": 0.9065
+        },
+        {
+          "rank": 98,
+          "symbol": "NEARUSDT",
+          "score": 0.139463,
+          "norm_volume": 0.0933,
+          "norm_oi": 0.0021,
+          "norm_spread": 0.6137
+        },
+        {
+          "rank": 99,
+          "symbol": "ESPUSDT",
+          "score": 0.139216,
+          "norm_volume": 0.0035,
+          "norm_oi": 0.0016,
+          "norm_spread": 0.9126
+        },
+        {
+          "rank": 100,
+          "symbol": "NILUSDT",
+          "score": 0.139102,
+          "norm_volume": 0.0161,
+          "norm_oi": 0.0035,
+          "norm_spread": 0.8656
+        },
+        {
+          "rank": 101,
+          "symbol": "FLOCKUSDT",
+          "score": 0.138441,
+          "norm_volume": 0.0829,
+          "norm_oi": 0.004,
+          "norm_spread": 0.6373
+        },
+        {
+          "rank": 102,
+          "symbol": "KITEUSDT",
+          "score": 0.138257,
+          "norm_volume": 0.0047,
+          "norm_oi": 0.0098,
+          "norm_spread": 0.8832
+        },
+        {
+          "rank": 103,
+          "symbol": "SLXUSDT",
+          "score": 0.137907,
+          "norm_volume": 0.0046,
+          "norm_oi": 0.0027,
+          "norm_spread": 0.8978
+        },
+        {
+          "rank": 104,
+          "symbol": "KATUSDT",
+          "score": 0.137846,
+          "norm_volume": 0.0027,
+          "norm_oi": 0.0275,
+          "norm_spread": 0.8457
+        },
+        {
+          "rank": 105,
+          "symbol": "AUSDT",
+          "score": 0.137288,
+          "norm_volume": 0.0014,
+          "norm_oi": 0.0016,
+          "norm_spread": 0.9069
+        },
+        {
+          "rank": 106,
+          "symbol": "BASEDUSDT",
+          "score": 0.137165,
+          "norm_volume": 0.0029,
+          "norm_oi": 0.0035,
+          "norm_spread": 0.8968
+        },
+        {
+          "rank": 107,
+          "symbol": "SPXUSDT",
+          "score": 0.135197,
+          "norm_volume": 0.0093,
+          "norm_oi": 0.0007,
+          "norm_spread": 0.8688
+        },
+        {
+          "rank": 108,
+          "symbol": "SPACEUSDT",
+          "score": 0.135095,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0182,
+          "norm_spread": 0.8551
+        },
+        {
+          "rank": 109,
+          "symbol": "HOTUSDT",
+          "score": 0.134897,
+          "norm_volume": 0.0005,
+          "norm_oi": 0.1996,
+          "norm_spread": 0.432
+        },
+        {
+          "rank": 110,
+          "symbol": "PYTHUSDT",
+          "score": 0.134702,
+          "norm_volume": 0.008,
+          "norm_oi": 0.0093,
+          "norm_spread": 0.8499
+        }
+      ],
+      "190_210": [
+        {
+          "rank": 190,
+          "symbol": "ACHUSDT",
+          "score": 0.110678,
+          "norm_volume": 0.0008,
+          "norm_oi": 0.0139,
+          "norm_spread": 0.7028
+        },
+        {
+          "rank": 191,
+          "symbol": "CKBUSDT",
+          "score": 0.110493,
+          "norm_volume": 0.0016,
+          "norm_oi": 0.0642,
+          "norm_spread": 0.5814
+        },
+        {
+          "rank": 192,
+          "symbol": "RAVEUSDT",
+          "score": 0.110388,
+          "norm_volume": 0.002,
+          "norm_oi": 0.001,
+          "norm_spread": 0.7268
+        },
+        {
+          "rank": 193,
+          "symbol": "SCRUSDT",
+          "score": 0.110098,
+          "norm_volume": 0.0028,
+          "norm_oi": 0.0042,
+          "norm_spread": 0.7149
+        },
+        {
+          "rank": 194,
+          "symbol": "RONINUSDT",
+          "score": 0.109483,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0013,
+          "norm_spread": 0.7264
+        },
+        {
+          "rank": 195,
+          "symbol": "PIEVERSEUSDT",
+          "score": 0.10908,
+          "norm_volume": 0.002,
+          "norm_oi": 0.0007,
+          "norm_spread": 0.7189
+        },
+        {
+          "rank": 196,
+          "symbol": "SFPUSDT",
+          "score": 0.109066,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.7254
+        },
+        {
+          "rank": 197,
+          "symbol": "GWEIUSDT",
+          "score": 0.10902,
+          "norm_volume": 0.0037,
+          "norm_oi": 0.0065,
+          "norm_spread": 0.6991
+        },
+        {
+          "rank": 198,
+          "symbol": "PHAUSDT",
+          "score": 0.108598,
+          "norm_volume": 0.0012,
+          "norm_oi": 0.0028,
+          "norm_spread": 0.7134
+        },
+        {
+          "rank": 199,
+          "symbol": "\u5e01\u5b89\u4eba\u751fUSDT",
+          "score": 0.108538,
+          "norm_volume": 0.0028,
+          "norm_oi": 0.0042,
+          "norm_spread": 0.7045
+        },
+        {
+          "rank": 200,
+          "symbol": "ENJUSDT",
+          "score": 0.108528,
+          "norm_volume": 0.0014,
+          "norm_oi": 0.0053,
+          "norm_spread": 0.7064
+        },
+        {
+          "rank": 201,
+          "symbol": "TWTUSDT",
+          "score": 0.108371,
+          "norm_volume": 0.0041,
+          "norm_oi": 0.0004,
+          "norm_spread": 0.708
+        },
+        {
+          "rank": 202,
+          "symbol": "ENSOUSDT",
+          "score": 0.108214,
+          "norm_volume": 0.0094,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.6896
+        },
+        {
+          "rank": 203,
+          "symbol": "PARTIUSDT",
+          "score": 0.108113,
+          "norm_volume": 0.0016,
+          "norm_oi": 0.0065,
+          "norm_spread": 0.7005
+        },
+        {
+          "rank": 204,
+          "symbol": "WALUSDT",
+          "score": 0.107907,
+          "norm_volume": 0.0018,
+          "norm_oi": 0.0039,
+          "norm_spread": 0.7042
+        },
+        {
+          "rank": 205,
+          "symbol": "INXUSDT",
+          "score": 0.107791,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0164,
+          "norm_spread": 0.6774
+        },
+        {
+          "rank": 206,
+          "symbol": "WIFUSDT",
+          "score": 0.107379,
+          "norm_volume": 0.021,
+          "norm_oi": 0.0044,
+          "norm_spread": 0.6357
+        },
+        {
+          "rank": 207,
+          "symbol": "PROMPTUSDT",
+          "score": 0.107052,
+          "norm_volume": 0.0011,
+          "norm_oi": 0.0026,
+          "norm_spread": 0.7039
+        },
+        {
+          "rank": 208,
+          "symbol": "TAIKOUSDT",
+          "score": 0.106926,
+          "norm_volume": 0.0001,
+          "norm_oi": 0.0012,
+          "norm_spread": 0.7097
+        },
+        {
+          "rank": 209,
+          "symbol": "ONUSDT",
+          "score": 0.10685,
+          "norm_volume": 0.002,
+          "norm_oi": 0.0024,
+          "norm_spread": 0.7001
+        },
+        {
+          "rank": 210,
+          "symbol": "MUBARAKUSDT",
+          "score": 0.106583,
+          "norm_volume": 0.0039,
+          "norm_oi": 0.0142,
+          "norm_spread": 0.6644
+        }
+      ],
+      "290_310": [
+        {
+          "rank": 290,
+          "symbol": "TACUSDT",
+          "score": 0.085781,
+          "norm_volume": 0.006,
+          "norm_oi": 0.0925,
+          "norm_spread": 0.336
+        },
+        {
+          "rank": 291,
+          "symbol": "PLUMEUSDT",
+          "score": 0.085412,
+          "norm_volume": 0.0058,
+          "norm_oi": 0.0194,
+          "norm_spread": 0.5048
+        },
+        {
+          "rank": 292,
+          "symbol": "AGLDUSDT",
+          "score": 0.084853,
+          "norm_volume": 0.0007,
+          "norm_oi": 0.0005,
+          "norm_spread": 0.5623
+        },
+        {
+          "rank": 293,
+          "symbol": "PRLUSDT",
+          "score": 0.084665,
+          "norm_volume": 0.0012,
+          "norm_oi": 0.0008,
+          "norm_spread": 0.5584
+        },
+        {
+          "rank": 294,
+          "symbol": "HOLOUSDT",
+          "score": 0.083575,
+          "norm_volume": 0.0023,
+          "norm_oi": 0.0023,
+          "norm_spread": 0.544
+        },
+        {
+          "rank": 295,
+          "symbol": "RIVERUSDT",
+          "score": 0.082928,
+          "norm_volume": 0.0164,
+          "norm_oi": 0.0002,
+          "norm_spread": 0.4978
+        },
+        {
+          "rank": 296,
+          "symbol": "ATOMUSDT",
+          "score": 0.082837,
+          "norm_volume": 0.011,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.5144
+        },
+        {
+          "rank": 297,
+          "symbol": "ALCHUSDT",
+          "score": 0.081758,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0047,
+          "norm_spread": 0.5332
+        },
+        {
+          "rank": 298,
+          "symbol": "MOCAUSDT",
+          "score": 0.081734,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0072,
+          "norm_spread": 0.5273
+        },
+        {
+          "rank": 299,
+          "symbol": "ZESTUSDT",
+          "score": 0.081569,
+          "norm_volume": 0.0008,
+          "norm_oi": 0.0021,
+          "norm_spread": 0.5363
+        },
+        {
+          "rank": 300,
+          "symbol": "DYMUSDT",
+          "score": 0.081498,
+          "norm_volume": 0.0018,
+          "norm_oi": 0.0065,
+          "norm_spread": 0.5222
+        },
+        {
+          "rank": 301,
+          "symbol": "TOWNSUSDT",
+          "score": 0.081437,
+          "norm_volume": 0.0014,
+          "norm_oi": 0.0405,
+          "norm_spread": 0.4438
+        },
+        {
+          "rank": 302,
+          "symbol": "BREVUSDT",
+          "score": 0.079963,
+          "norm_volume": 0.0022,
+          "norm_oi": 0.0011,
+          "norm_spread": 0.5234
+        },
+        {
+          "rank": 303,
+          "symbol": "CHRUSDT",
+          "score": 0.079247,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0042,
+          "norm_spread": 0.5167
+        },
+        {
+          "rank": 304,
+          "symbol": "ILVUSDT",
+          "score": 0.078968,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0,
+          "norm_spread": 0.5255
+        },
+        {
+          "rank": 305,
+          "symbol": "ROBOUSDT",
+          "score": 0.078685,
+          "norm_volume": 0.0084,
+          "norm_oi": 0.025,
+          "norm_spread": 0.4383
+        },
+        {
+          "rank": 306,
+          "symbol": "BROCCOLIF3BUSDT",
+          "score": 0.078139,
+          "norm_volume": 0.0021,
+          "norm_oi": 0.0209,
+          "norm_spread": 0.4651
+        },
+        {
+          "rank": 307,
+          "symbol": "RENDERUSDT",
+          "score": 0.077765,
+          "norm_volume": 0.0073,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.4934
+        },
+        {
+          "rank": 308,
+          "symbol": "TAKEUSDT",
+          "score": 0.07751,
+          "norm_volume": 0.0004,
+          "norm_oi": 0.004,
+          "norm_spread": 0.5061
+        },
+        {
+          "rank": 309,
+          "symbol": "COAIUSDT",
+          "score": 0.076703,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0006,
+          "norm_spread": 0.5081
+        },
+        {
+          "rank": 310,
+          "symbol": "IRYSUSDT",
+          "score": 0.076455,
+          "norm_volume": 0.001,
+          "norm_oi": 0.0055,
+          "norm_spread": 0.4934
+        }
+      ],
+      "380_397": [
+        {
+          "rank": 380,
+          "symbol": "STARUSDT",
+          "score": 0.038964,
+          "norm_volume": 0.0017,
+          "norm_oi": 0.0019,
+          "norm_spread": 0.2497
+        },
+        {
+          "rank": 381,
+          "symbol": "OPGUSDT",
+          "score": 0.037898,
+          "norm_volume": 0.0022,
+          "norm_oi": 0.0023,
+          "norm_spread": 0.2398
+        },
+        {
+          "rank": 382,
+          "symbol": "TRADOORUSDT",
+          "score": 0.036193,
+          "norm_volume": 0.0007,
+          "norm_oi": 0.0003,
+          "norm_spread": 0.2383
+        },
+        {
+          "rank": 383,
+          "symbol": "BROCCOLI714USDT",
+          "score": 0.030076,
+          "norm_volume": 0.0034,
+          "norm_oi": 0.006,
+          "norm_spread": 0.1753
+        },
+        {
+          "rank": 384,
+          "symbol": "XVGUSDT",
+          "score": 0.029228,
+          "norm_volume": 0.0022,
+          "norm_oi": 0.024,
+          "norm_spread": 0.1315
+        },
+        {
+          "rank": 385,
+          "symbol": "1000000BOBUSDT",
+          "score": 0.026202,
+          "norm_volume": 0.0002,
+          "norm_oi": 0.0046,
+          "norm_spread": 0.1631
+        },
+        {
+          "rank": 386,
+          "symbol": "ASRUSDT",
+          "score": 0.025752,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0001,
+          "norm_spread": 0.1714
+        },
+        {
+          "rank": 387,
+          "symbol": "CELRUSDT",
+          "score": 0.022371,
+          "norm_volume": 0.0,
+          "norm_oi": 0.0301,
+          "norm_spread": 0.0789
+        },
+        {
+          "rank": 388,
+          "symbol": "AVAAIUSDT",
+          "score": 0.018837,
+          "norm_volume": 0.0007,
+          "norm_oi": 0.0176,
+          "norm_spread": 0.0822
+        },
+        {
+          "rank": 389,
+          "symbol": "BULLAUSDT",
+          "score": 0.018397,
+          "norm_volume": 0.0014,
+          "norm_oi": 0.0155,
+          "norm_spread": 0.0819
+        },
+        {
+          "rank": 390,
+          "symbol": "BSVUSDT",
+          "score": 0.014211,
+          "norm_volume": 0.0009,
+          "norm_oi": 0.0,
+          "norm_spread": 0.0919
+        },
+        {
+          "rank": 391,
+          "symbol": "GOATUSDT",
+          "score": 0.012405,
+          "norm_volume": 0.0006,
+          "norm_oi": 0.0047,
+          "norm_spread": 0.0699
+        },
+        {
+          "rank": 392,
+          "symbol": "SAGAUSDT",
+          "score": 0.010654,
+          "norm_volume": 0.0024,
+          "norm_oi": 0.0128,
+          "norm_spread": 0.0331
+        },
+        {
+          "rank": 393,
+          "symbol": "HANAUSDT",
+          "score": 0.006315,
+          "norm_volume": 0.0012,
+          "norm_oi": 0.0164,
+          "norm_spread": 0.0
+        },
+        {
+          "rank": 394,
+          "symbol": "PORTALUSDT",
+          "score": 0.004933,
+          "norm_volume": 0.0026,
+          "norm_oi": 0.0096,
+          "norm_spread": 0.0019
+        },
+        {
+          "rank": 395,
+          "symbol": "CHILLGUYUSDT",
+          "score": 0.00445,
+          "norm_volume": 0.0025,
+          "norm_oi": 0.0092,
+          "norm_spread": 0.0
+        },
+        {
+          "rank": 396,
+          "symbol": "TAUSDT",
+          "score": 0.002228,
+          "norm_volume": 0.0003,
+          "norm_oi": 0.0059,
+          "norm_spread": 0.0
+        },
+        {
+          "rank": 397,
+          "symbol": "CLANKERUSDT",
+          "score": 0.000639,
+          "norm_volume": 0.0013,
+          "norm_oi": 0.0,
+          "norm_spread": 0.0
+        }
+      ]
+    }
+  },
+  "btc_eth_analysis": {
+    "ETHUSDT": {
+      "raw_volume_usd": 10948868449.31,
+      "raw_oi": 2376426.2,
+      "raw_spread_bps": 0.04097873613285114,
+      "by_method": {
+        "minmax": {
+          "norm_volume": 1.0,
+          "norm_oi": 1.5e-05,
+          "norm_spread": 0.998541,
+          "score": 0.64978642,
+          "rank": 1
+        },
+        "log_minmax": {
+          "norm_volume": 1.0,
+          "norm_oi": 0.344616,
+          "norm_spread": 0.998541,
+          "score": 0.77039698,
+          "rank": 2
+        },
+        "percentile": {
+          "norm_volume": 1.0,
+          "norm_oi": 0.083333,
+          "norm_spread": 0.989899,
+          "score": 0.67765151,
+          "rank": 82
+        },
+        "winsorized_p1_p99": {
+          "norm_volume": 1.0,
+          "norm_oi": 0.000123,
+          "norm_spread": 0.999948,
+          "score": 0.65003513,
+          "rank": 1
+        }
+      }
+    },
+    "BTCUSDT": {
+      "raw_volume_usd": 10543265476.76,
+      "raw_oi": 107248.555,
+      "raw_spread_bps": 0.012852000221802488,
+      "by_method": {
+        "minmax": {
+          "norm_volume": 0.962953,
+          "norm_oi": 1e-06,
+          "norm_spread": 0.999866,
+          "score": 0.6314568,
+          "rank": 2
+        },
+        "log_minmax": {
+          "norm_volume": 0.996297,
+          "norm_oi": 0.161944,
+          "norm_spread": 0.999866,
+          "score": 0.70480866,
+          "rank": 8
+        },
+        "percentile": {
+          "norm_volume": 0.997475,
+          "norm_oi": 0.012626,
+          "norm_spread": 0.997475,
+          "score": 0.65277778,
+          "rank": 100
+        },
+        "winsorized_p1_p99": {
+          "norm_volume": 1.0,
+          "norm_oi": 0.0,
+          "norm_spread": 1.0,
+          "score": 0.65000013,
+          "rank": 2
+        }
+      }
+    }
+  },
+  "feature_dominance": {
+    "minmax": {
+      "vol_pct": 3.4,
+      "oi_pct": 2.2,
+      "spr_pct": 94.5,
+      "dominant": "spread"
+    },
+    "log_minmax": {
+      "vol_pct": 28.5,
+      "oi_pct": 44.6,
+      "spr_pct": 26.9,
+      "dominant": "oi"
+    },
+    "percentile": {
+      "vol_pct": 50.0,
+      "oi_pct": 35.0,
+      "spr_pct": 15.0,
+      "dominant": "volume"
+    },
+    "winsorized_p1_p99": {
+      "vol_pct": 11.9,
+      "oi_pct": 10.2,
+      "spr_pct": 77.9,
+      "dominant": "spread"
+    }
+  },
+  "distribution_compression": {
+    "minmax": {
+      "volume": {
+        "pct_below_0.05": 98.5,
+        "pct_below_0.10": 98.7,
+        "pct_below_0.25": 99.5,
+        "pct_below_0.50": 99.5
+      },
+      "oi": {
+        "pct_below_0.05": 98.0,
+        "pct_below_0.10": 98.7,
+        "pct_below_0.25": 99.2,
+        "pct_below_0.50": 99.7
+      },
+      "spread": {
+        "pct_below_0.05": 0.3,
+        "pct_below_0.10": 0.3,
+        "pct_below_0.25": 0.3,
+        "pct_below_0.50": 5.3
+      }
+    },
+    "log_minmax": {
+      "volume": {
+        "pct_below_0.05": 4.0,
+        "pct_below_0.10": 15.9,
+        "pct_below_0.25": 63.7,
+        "pct_below_0.50": 91.9
+      },
+      "oi": {
+        "pct_below_0.05": 0.5,
+        "pct_below_0.10": 0.5,
+        "pct_below_0.25": 3.8,
+        "pct_below_0.50": 34.5
+      },
+      "spread": {
+        "pct_below_0.05": 0.3,
+        "pct_below_0.10": 0.3,
+        "pct_below_0.25": 0.3,
+        "pct_below_0.50": 5.3
+      }
+    },
+    "percentile": {
+      "volume": {
+        "pct_below_0.05": 5.0,
+        "pct_below_0.10": 10.1,
+        "pct_below_0.25": 24.9,
+        "pct_below_0.50": 49.9
+      },
+      "oi": {
+        "pct_below_0.05": 5.0,
+        "pct_below_0.10": 10.1,
+        "pct_below_0.25": 24.9,
+        "pct_below_0.50": 49.9
+      },
+      "spread": {
+        "pct_below_0.05": 5.0,
+        "pct_below_0.10": 10.1,
+        "pct_below_0.25": 24.9,
+        "pct_below_0.50": 49.9
+      }
+    },
+    "winsorized_p1_p99": {
+      "volume": {
+        "pct_below_0.05": 91.7,
+        "pct_below_0.10": 94.7,
+        "pct_below_0.25": 97.7,
+        "pct_below_0.50": 98.5
+      },
+      "oi": {
+        "pct_below_0.05": 90.9,
+        "pct_below_0.10": 92.7,
+        "pct_below_0.25": 97.0,
+        "pct_below_0.50": 98.0
+      },
+      "spread": {
+        "pct_below_0.05": 1.5,
+        "pct_below_0.10": 3.0,
+        "pct_below_0.25": 5.5,
+        "pct_below_0.50": 27.0
+      }
+    }
+  },
+  "component_contributions": {
+    "minmax": {
+      "volume": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 4.67e-05,
+        "median": 0.000126155,
+        "p75": 0.0004518,
+        "p90": 0.002276972000000004,
+        "p95": 0.005942704999999995,
+        "max": 0.5,
+        "mean": 0.00405472404282115
+      },
+      "oi": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 4.61825e-05,
+        "median": 0.00016255749999999998,
+        "p75": 0.000613249,
+        "p90": 0.001707562500000002,
+        "p95": 0.007050218699999995,
+        "max": 0.35,
+        "mean": 0.0026205032317380365
+      },
+      "spread": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.098929761,
+        "median": 0.11678025299999999,
+        "p75": 0.1317928035,
+        "p90": 0.1414768386,
+        "p95": 0.1438132566,
+        "max": 0.15,
+        "mean": 0.11394632358060462
+      },
+      "weights": {
+        "volume": 0.5,
+        "oi": 0.35,
+        "spread": 0.15
+      }
+    },
+    "log_minmax": {
+      "volume": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.061393295,
+        "median": 0.100395245,
+        "p75": 0.158179385,
+        "p90": 0.23591003000000008,
+        "p95": 0.282712329,
+        "max": 0.5,
+        "mean": 0.12068681722921912
+      },
+      "oi": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.1656609675,
+        "median": 0.191625413,
+        "p75": 0.2190235495,
+        "p90": 0.2401524601,
+        "p95": 0.2694127036999999,
+        "max": 0.35,
+        "mean": 0.18921039567632247
+      },
+      "spread": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.098929761,
+        "median": 0.11678025299999999,
+        "p75": 0.1317928035,
+        "p90": 0.1414768386,
+        "p95": 0.1438132566,
+        "max": 0.15,
+        "mean": 0.11394632358060462
+      },
+      "weights": {
+        "volume": 0.5,
+        "oi": 0.35,
+        "spread": 0.15
+      }
+    },
+    "percentile": {
+      "volume": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.125,
+        "median": 0.25,
+        "p75": 0.375,
+        "p90": 0.45000000000000007,
+        "p95": 0.475,
+        "max": 0.5,
+        "mean": 0.24999999999999978
+      },
+      "oi": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.0875,
+        "median": 0.175,
+        "p75": 0.26249999999999996,
+        "p90": 0.315,
+        "p95": 0.33249999999999996,
+        "max": 0.35,
+        "mean": 0.175
+      },
+      "spread": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.0375,
+        "median": 0.075,
+        "p75": 0.11249999999999999,
+        "p90": 0.135,
+        "p95": 0.1425,
+        "max": 0.15,
+        "mean": 0.07499999999622171
+      },
+      "weights": {
+        "volume": 0.5,
+        "oi": 0.35,
+        "spread": 0.15
+      }
+    },
+    "winsorized_p1_p99": {
+      "volume": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.000356515,
+        "median": 0.001053175,
+        "p75": 0.00390848,
+        "p90": 0.019911680000000036,
+        "p95": 0.05205308599999995,
+        "max": 0.5,
+        "mean": 0.014589412153652396
+      },
+      "oi": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.00039627,
+        "median": 0.0013992825,
+        "p75": 0.0052836804999999995,
+        "p90": 0.014715311800000018,
+        "p95": 0.06076237999999996,
+        "max": 0.35,
+        "mean": 0.012562811115869016
+      },
+      "spread": {
+        "count": 397.0,
+        "min": 0.0,
+        "p25": 0.072855492,
+        "median": 0.09993292799999999,
+        "p75": 0.122705487,
+        "p90": 0.1373952147,
+        "p95": 0.1409393301,
+        "max": 0.15,
+        "mean": 0.09590377304659944
+      },
+      "weights": {
+        "volume": 0.5,
+        "oi": 0.35,
+        "spread": 0.15
+      }
+    }
+  }
+}
